@@ -54,7 +54,4 @@ Building complex automation frameworks, pioneering multi-agent orchestration, an
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_ACTUAL_USERNAME)
-[![X](https://img.shields.io/badge/X-Connect-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/YOUR_ACTUAL_USERNAME)
-
 </div>
