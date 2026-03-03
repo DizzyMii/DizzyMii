@@ -1,16 +1,52 @@
-## Hi there 👋
+# <p align="center">Hi, I'm DizzyMii! 👋</p>
 
-<!--
-**DizzyMii/DizzyMii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Creative+Designer;Tech+Enthusiast" alt="Typing SVG" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 About Me
+
+I'm a passionate developer who loves building innovative solutions and pushing the boundaries of web technology.
+
+- 🔭 I’m currently working on some exciting new projects.
+- 🌱 I’m currently learning advanced system architecture and UI/UX design.
+- 💬 Ask me about anything related to development or design!
+- ⚡ Fun fact: I believe sleep is just a low-power mode for developers.
+
+---
+
+### 🛠️ Tech Stack
+
+<div align="center">
+  <p><strong>Frontend</strong></p>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" /></a>
+  <br/>
+  <p><strong>Backend & Tools</strong></p>
+  <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,git,docker,vscode" /></a>
+</div>
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&theme=tokyonight&hide_border=true&align=center" alt="DizzyMii's GitHub stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DizzyMii&layout=compact&theme=tokyonight&hide_border=true&align=center" alt="Top Languages" />
+</p>
+
+---
+
+### 🤝 Connect with me
+
+<p align="center">
+  <a href="https://linkedin.com/in/YOUR_USERNAME" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://twitter.com/YOUR_USERNAME" target="blank"><img align="center" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
+  <a href="mailto:your_email@example.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" />
+</p>
