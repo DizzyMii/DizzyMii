@@ -19,14 +19,14 @@ Building complex automation frameworks, pioneering multi-agent orchestration, an
 
 ---
 
-### 🚀 About Me
+###  About Me
 
 I'm a passionate self-taught developer focused on engineering software solutions for complex technical challenges.
 
-- 🛠️ **Aspiring Minecraft Mod Developer**
-- 🧠 **Currently Studying AI Engineering and Machine Learning**
-- 💡 _Evolution is not an update. It is the result of a mind that refuses to stall._
-- 💬 **Open to discussing anything tech**
+-  **Aspiring Minecraft Mod Developer**
+-  **Currently Studying AI Engineering and Machine Learning**
+-  _Evolution is not an update. It is the result of a mind that refuses to stall._
+-  **Open to discussing anything tech**
 
 ---
 
@@ -43,16 +43,16 @@ I'm a passionate self-taught developer focused on engineering software solutions
 
 ---
 
-### 🏗️ Current Directives & Architecture
+### Current Directives & Architecture
 
-- 🏰 **The Landlord System:** Engineering a high-level task delegation framework designed to optimize multi-agent AI workflows and system orchestration.
-- 🌌 **Dreamcatcher:** Developing a professional-grade software suite for reverse engineering server structures and complex network protocols.
-- 🕵️ **Context Hunter:** Creating an automated static analysis CLI package used to efficiently extract developer context directly from executable files.
-- 💼 **Enterprise Solutions:** Solo-developed a core software application to streamline the hiring process.
+-  **The Landlord System:** Engineering a high-level task delegation framework designed to optimize multi-agent AI workflows and system orchestration.
+-  **Dreamcatcher:** Developing a professional-grade software suite for reverse engineering server structures and complex network protocols.
+-  **Context Hunter:** Creating an automated static analysis CLI package used to efficiently extract developer context directly from executable files.
+-  **Enterprise Solutions:** Solo-developed a core software application to streamline the hiring process.
 
 ---
 
-### 📊 Telemetry
+###  Telemetry
 
 <div align="center">
 
@@ -66,7 +66,7 @@ I'm a passionate self-taught developer focused on engineering software solutions
 
 ---
 
-### 📈 Activity Graph
+###  Activity Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=DizzyMii&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
