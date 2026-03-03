@@ -61,7 +61,7 @@ I'm a passionate self-taught developer focused on engineering software solutions
 | [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DizzyMii&layout=compact&theme=radical&hide_border=true)](https://github.com/anuraghazra/github-readme-stats) | [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&theme=radical&hide_border=true)](https://github.com/anuraghazra/github-readme-stats) |
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?username=DizzyMii&theme=radical&hide_border=true)](https://git.io/streak-stats)
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=DizzyMii)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=DizzyMii)](https://github.com/DizzyMii/github-readme-stats)
 </div>
 
 ---
