@@ -1,75 +1,43 @@
-# <p align="center">Hi, I'm DizzyMii! 👋</p>
+# Hi, I'm DizzyMii
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=DizzyMii&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+[![Profile Views](https://komarev.com/ghpvc/?username=DizzyMii&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/DizzyMii)
 
 ---
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Creative+Designer;Tech+Enthusiast" alt="Typing SVG" />
-</p>
+### About Me
 
-### 🚀 About Me
+I am a Software Tester and Context Engineer specializing in automation frameworks, reverse engineering tools, and complex system architectures. 
 
-I'm a passionate developer who loves building innovative solutions and pushing the boundaries of web technology.
-
-- 🔭 I’m currently working on some exciting new projects.
-- 🌱 I’m currently learning advanced system architecture and UI/UX design.
-- 💬 Ask me about anything related to development or design!
-- ⚡ Fun fact: I believe sleep is just a low-power mode for developers.
+* Currently developing **The Landlord System**, a task delegation framework for optimizing multi-agent workflows.
+* Building **Dreamcatcher**, a professional-grade application for reverse engineering server structures and network protocols.
+* Working on **Context Hunter**, an automated static analysis tool used to extract developer context from executable files.
+* Served as a Teaching Assistant, teaching JavaScript fundamentals to junior software testers.
+* In my free time, I develop advanced Minecraft mods using NeoForge 1.21.1 and Kotlin, and design complex Victorian steampunk architectural builds like Ayrewind.
 
 ---
 
-### 🛠️ Tech Stack
+### Featured Projects
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" width="50%">
-        <p><strong>Frontend</strong></p>
-        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" /></a>
-      </td>
-      <td align="center" width="50%">
-        <p><strong>Backend & Tools</strong></p>
-        <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgres,git,docker,vscode" /></a>
-      </td>
-    </tr>
-  </table>
-</div>
+* **Context Hunter:** A CLI automated static analysis package.
+* **Dreamcatcher:** Network protocol and server structure reverse engineering suite.
+* **The Landlord System:** Agentic workflow delegation framework.
+* **Ayrewind / Modding:** Custom asset creation and advanced automation systems utilizing the Create mod.
 
 ---
 
-### 📊 GitHub Stats
+### Tech Stack & Tools
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&theme=tokyonight&hide_border=true" alt="DizzyMii's GitHub stats" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DizzyMii&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=DizzyMii&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-      </td>
-    </tr>
-  </table>
-</div>
+* **Languages & Frameworks:** JavaScript, Kotlin, NeoForge
+* **Development & Design:** Google Antigravity, Aseprite, Blockbench
 
 ---
 
-### 🤝 Connect with me
+### GitHub Stats
 
-<p align="center">
-  <a href="https://linkedin.com/in/YOUR_USERNAME" target="blank"><img align="center" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://twitter.com/YOUR_USERNAME" target="blank"><img align="center" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" /></a>
-  <a href="mailto:your_email@example.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-</p>
+[![DizzyMii's GitHub stats](https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&theme=radical&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" />
-</p>
+---
+
+### Connect with me
+
+[LinkedIn](https://linkedin.com/in/YOUR_ACTUAL_USERNAME) | [Twitter](https://twitter.com/YOUR_ACTUAL_USERNAME)
