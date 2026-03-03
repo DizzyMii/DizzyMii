@@ -1,17 +1,22 @@
-# <p align="center">Hi, I'm DizzyMii!</p>
+# <h1 align="center">Hi, I'm DizzyMii!</h1>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=DizzyMii&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=DizzyMii&theme=jade&no-bg=true&column=7" alt="GitHub Trophies" /></a>
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=DizzyMii&theme=jade&no-bg=true&column=7" alt="GitHub Trophies" />
+  </a>
 </p>
 
 <div align="center">
-  **Software Tester • Context Engineer • System Architect**
+  
+**Software Tester • Context Engineer • System Architect**
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F7D547&center=true&vCenter=true&width=600&lines=Architecting+Agentic+Workflows;Reverse+Engineering+Network+Protocols;Building+Automated+Static+Analysis+Tools;Developing+in+Java,+Kotlin,+TS,+%26+Python)](https://git.io/typing-svg)
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F7D547&center=true&vCenter=true&width=600&lines=Architecting+Agentic+Workflows;Reverse+Engineering+Network+Protocols;Building+Automated+Static+Analysis+Tools;Developing+in+Java,+Kotlin,+TS,+%26+Python" alt="Typing SVG" />
+</a>
 
 Building complex automation frameworks, pioneering multi-agent orchestration, and solo-developing core enterprise solutions.
 
@@ -25,7 +30,7 @@ I'm a passionate self-taught developer focused on engineering software solutions
 
 - **Aspiring Minecraft Mod Developer**
 - **Currently Studying AI Engineering and Machine Learning**
-- _Evolution is not an update. It is the result of a mind that refuses to stall._
+- *Evolution is not an update. It is the result of a mind that refuses to stall.*
 - **Open to discussing anything tech**
 
 ---
@@ -34,7 +39,7 @@ I'm a passionate self-taught developer focused on engineering software solutions
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,js,ts,py,kotlin,git,github,linux,bash,docker&perline=5" />
+    <img src="https://skillicons.dev/icons?i=java,js,ts,py,kotlin,git,github,linux,bash,docker&perline=10" alt="Skill Icons" />
   </a>
 </div>
 
@@ -55,12 +60,16 @@ I'm a passionate self-taught developer focused on engineering software solutions
 ### Telemetry
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DizzyMii&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
+</div>
 
-|                                                                                  Top Languages & Metrics                                                                                  |                                                                                 Commits & Activity                                                                                 |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DizzyMii&layout=compact&theme=radical&hide_border=true)](https://github.com/anuraghazra/github-readme-stats) | [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&theme=radical&hide_border=true)](https://github.com/anuraghazra/github-readme-stats) |
+<br />
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?username=DizzyMii&theme=radical&hide_border=true)](https://git.io/streak-stats)
+<div align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com/?user=DizzyMii&theme=radical&hide_border=true" alt="GitHub Streak" />
+  </a>
 </div>
 
 ---
@@ -83,8 +92,6 @@ I'm a passionate self-taught developer focused on engineering software solutions
   </picture>
 </p>
 
----
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" alt="Footer Waving Animation" />
 </p>
