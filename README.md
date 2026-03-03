@@ -92,6 +92,29 @@ I'm a passionate self-taught developer focused on engineering software solutions
   </picture>
 </p>
 
+---
+
+<details>
+  <summary><h3>Workstation & Arsenal Specs</h3></summary>
+  <br />
+  
+  <div align="center">
+
+  | Category | Specification / Tool |
+  | :--- | :--- |
+  | **Processor (CPU)** | AMD Ryzen 7 9800X3D (w/ Integrated Graphics) |
+  | **Graphics (GPU)** | AMD Radeon RX 9070 XT |
+  | **Target Display** | 1080p @ 240Hz (Optimized for Competitive FPS) |
+  | **Primary IDEs** | Google Antigravity, Windsurf |
+  | **Workflow Models** | Claude 3.5/4.5, Gemini 3 Pro |
+  | **Design & Assets** | Aseprite, Blockbench |
+  
+  </div>
+  
+</details>
+
+---
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" alt="Footer Waving Animation" />
 </p>
