@@ -1,5 +1,5 @@
 
-# <p align="center">Hi, I'm DizzyMii! 👋</p>
+# <p align="center">Hi, I'm DizzyMii! </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=DizzyMii&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
@@ -15,18 +15,18 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=435&lines=Full+Stack+Developer;Creative+Designer;Tech+Enthusiast" alt="Typing SVG" />
 </p>
 
-### 🚀 About Me
+###  About Me
 
-I'm a passionate developer who loves building innovative solutions and pushing the boundaries of web technology.
+I'm a passionate self-taught developer focused on engineering software solutions for complex technical challenges.
 
-- 🔭 I’m currently working on some exciting new projects.
-- 🌱 I’m currently learning advanced system architecture and UI/UX design.
-- 💬 Ask me about anything related to development or design!
-- ⚡ Fun fact: I believe sleep is just a low-power mode for developers.
+-  Aspiring Minecraft Mod Developer 
+-  Currently Studying AI Engineering and Machine Learning
+-  Evolution is not an update. It is the result of a mind that refuses to stall
+-  Open to discussing anything tech
 
 ---
 
-### 🛠️ Tech Stack
+###  Tech Stack
 
 <div align="center">
   <table border="0">
@@ -79,7 +79,7 @@ Building complex automation frameworks, pioneering multi-agent orchestration, an
 
 ---
 
-### 📈 Activity Graph
+###  Activity Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=DizzyMii&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
@@ -87,7 +87,7 @@ Building complex automation frameworks, pioneering multi-agent orchestration, an
 
 ---
 
-### 🐍 Contribution Snake
+###  Contribution Snake
 
 <p align="center">
   <img src="https://github-contribution-grid-snake.generate.github.io/github-contribution-grid-snake.svg" alt="Contribution Snake" />
@@ -98,7 +98,7 @@ Building complex automation frameworks, pioneering multi-agent orchestration, an
 
 ---
 
-### 🤝 Connect with me
+###  Connect with me
 =======
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=java,js,ts,py,kotlin&perline=5" />
