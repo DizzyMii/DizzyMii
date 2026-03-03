@@ -41,7 +41,7 @@ I'm a passionate self-taught developer focused on engineering software solutions
       </td>
     </tr>
   </table>
-=======
+---
 <div align="center">
 
 #  DizzyMii
