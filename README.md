@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # <p align="center">Hi, I'm DizzyMii! 👋</p>
 
 <p align="center">
