@@ -82,18 +82,6 @@ I'm a passionate self-taught developer focused on engineering software solutions
 
 ---
 
-### Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake.svg">
-  </picture>
-</p>
-
----
-
 <details>
   <summary><h3>Workstation & Arsenal Specs</h3></summary>
   <br />
