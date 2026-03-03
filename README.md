@@ -1,43 +1,60 @@
-# Hi, I'm DizzyMii
+<div align="center">
 
-[![Profile Views](https://komarev.com/ghpvc/?username=DizzyMii&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/DizzyMii)
+#  DizzyMii
+**Software Tester • Context Engineer • System Architect**
 
----
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F7D547&center=true&vCenter=true&width=600&lines=Architecting+Agentic+Workflows;Reverse+Engineering+Network+Protocols;Building+Automated+Static+Analysis+Tools;Developing+in+Java,+Kotlin,+TS,+%26+Python)](https://git.io/typing-svg)
 
-### About Me
+Building complex automation frameworks, pioneering multi-agent orchestration, and solo-developing core enterprise solutions. 
 
-I am a Software Tester and Context Engineer specializing in automation frameworks, reverse engineering tools, and complex system architectures. 
-
-* Currently developing **The Landlord System**, a task delegation framework for optimizing multi-agent workflows.
-* Building **Dreamcatcher**, a professional-grade application for reverse engineering server structures and network protocols.
-* Working on **Context Hunter**, an automated static analysis tool used to extract developer context from executable files.
-* Served as a Teaching Assistant, teaching JavaScript fundamentals to junior software testers.
-* In my free time, I develop advanced Minecraft mods using NeoForge 1.21.1 and Kotlin, and design complex Victorian steampunk architectural builds like Ayrewind.
+</div>
 
 ---
 
-### Featured Projects
+###  Core Arsenal
 
-* **Context Hunter:** A CLI automated static analysis package.
-* **Dreamcatcher:** Network protocol and server structure reverse engineering suite.
-* **The Landlord System:** Agentic workflow delegation framework.
-* **Ayrewind / Modding:** Custom asset creation and advanced automation systems utilizing the Create mod.
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,js,ts,py,kotlin&perline=5" />
+  </a>
+  <br>
+  <br>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,linux,bash,docker&perline=5" />
+  </a>
+</div>
 
----
-
-### Tech Stack & Tools
-
-* **Languages & Frameworks:** JavaScript, Kotlin, NeoForge
-* **Development & Design:** Google Antigravity, Aseprite, Blockbench
-
----
-
-### GitHub Stats
-
-[![DizzyMii's GitHub stats](https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&theme=radical&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
+**AI & Workflow Tooling:** Google Antigravity, IntelliJ Community Edition
+**Design & Asset Creation:** Aseprite, Blockbench
 
 ---
 
-### Connect with me
+###  Current Directives & Architecture
 
-[LinkedIn](https://linkedin.com/in/YOUR_ACTUAL_USERNAME) | [Twitter](https://twitter.com/YOUR_ACTUAL_USERNAME)
+*  **The Landlord System:** Engineering a high-level task delegation framework designed to optimize multi-agent AI workflows and system orchestration.
+*  **Dreamcatcher:** Developing a professional-grade software suite for reverse engineering server structures and complex network protocols.
+*  **Context Hunter:** Creating an automated static analysis CLI package used to efficiently extract developer context directly from executable files.
+*  **Enterprise Solutions:** Solo-developed a core software application to streamline the hiring process
+
+---
+
+###  Telemetry
+
+<div align="center">
+
+| Top Languages & Metrics | Commits & Activity |
+| :---: | :---: |
+| [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DizzyMii&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&text_color=C9D1D9&title_color=58A6FF)](https://github.com/anuraghazra/github-readme-stats) | [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&text_color=C9D1D9&icon_color=F7D547&title_color=58A6FF)](https://github.com/anuraghazra/github-readme-stats) |
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DizzyMii&theme=radical&hide_border=true&background=0D1117&ring=F7D547&fire=F7D547&currStreakNum=C9D1D9&sideNums=C9D1D9&sideLabels=58A6FF&dates=58A6FF)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_ACTUAL_USERNAME)
+[![X](https://img.shields.io/badge/X-Connect-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/YOUR_ACTUAL_USERNAME)
+
+</div>
