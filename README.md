@@ -66,6 +66,14 @@ I'm a passionate self-taught developer focused on engineering software solutions
 
 ---
 
+### 📈 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DizzyMii&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
+</p>
+
+---
+
 ### 🐍 Contribution Snake
 
 <p align="center">
