@@ -1,108 +1,133 @@
-# <h1 align="center">Hi, I'm DizzyMii!</h1>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=DizzyMii&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=DizzyMii&theme=jade&no-bg=true&column=7" alt="GitHub Trophies" />
-  </a>
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1b2e&height=120&section=header&text=&fontSize=0" width="100%" alt="Header" />
 
 <div align="center">
-  
-**Software Tester • Context Engineer • System Architect**
+
+# DizzyMii
+
+**System Architect · Context Engineer · Reverse Engineer**
+
+<br />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=F7D547&center=true&vCenter=true&width=600&lines=Architecting+Agentic+Workflows;Reverse+Engineering+Network+Protocols;Building+Automated+Static+Analysis+Tools;Developing+in+Java,+Kotlin,+TS,+%26+Python" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=8B949E&center=true&vCenter=true&width=500&lines=multi-agent+orchestration;protocol+reverse+engineering;automated+static+analysis;enterprise+software+development" alt="Typing SVG" />
 </a>
 
-Building complex automation frameworks, pioneering multi-agent orchestration, and solo-developing core enterprise solutions.
+<br />
 
-</div>
+<a href="https://github.com/DizzyMii">
+  <img src="https://img.shields.io/github/followers/DizzyMii?style=flat&logo=github&logoColor=white&label=Follow&color=0d1117&labelColor=161b22" alt="GitHub Followers" />
+</a>
+&nbsp;
+<a href="https://discord.com/users/DizzyMii">
+  <img src="https://img.shields.io/badge/DizzyMii-%235865F2?style=flat&logo=discord&logoColor=white&labelColor=161b22" alt="Discord" />
+</a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=DizzyMii&color=161b22&style=flat&label=views" alt="Profile Views" />
 
----
-
-### About Me
-
-I'm a passionate self-taught developer focused on engineering software solutions for complex technical challenges.
-
-- **Aspiring Minecraft Mod Developer**
-- **Currently Studying AI Engineering and Machine Learning**
-- *Evolution is not an update. It is the result of a mind that refuses to stall.*
-- **Open to discussing anything tech**
-
----
-
-### Core Arsenal
-
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,js,ts,py,kotlin,git,github,linux,bash,docker&perline=10" alt="Skill Icons" />
-  </a>
-</div>
-
-**AI & Workflow Tooling:** Google Antigravity, IntelliJ Community Edition  
-**Design & Asset Creation:** Aseprite, Blockbench
-
----
-
-### Current Directives & Architecture
-
-- **The Landlord System:** Engineering a high-level task delegation framework designed to optimize multi-agent AI workflows and system orchestration.
-- **Dreamcatcher:** Developing a professional-grade software suite for reverse engineering server structures and complex network protocols.
-- **Context Hunter:** Creating an automated static analysis CLI package used to efficiently extract developer context directly from executable files.
-- **Enterprise Solutions:** Solo-developed a core software application to streamline the hiring process.
-
----
-
-### Telemetry
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DizzyMii&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
 </div>
 
 <br />
 
+## About
+
+Self-taught developer building tools for problems most people don't touch — multi-agent orchestration, network protocol analysis, and automated code intelligence. I work across the full stack but gravitate toward systems-level engineering and developer tooling.
+
+- Currently deep in **AI engineering** and **machine learning**
+- Building toward **Minecraft mod development** as a creative outlet
+- Believer that good software comes from understanding the system, not just the framework
+
+<br />
+
+## Tech Stack
+
 <div align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=DizzyMii&theme=radical&hide_border=true" alt="GitHub Streak" />
-  </a>
+
+**Languages**
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=java,kotlin,ts,js,py&theme=dark" alt="Languages" />
+</a>
+
+<br /><br />
+
+**Tools & Platforms**
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,github,linux,bash,docker&theme=dark" alt="Tools" />
+</a>
+
+<br /><br />
+
+**Design & Assets** &nbsp;·&nbsp; Aseprite &nbsp;·&nbsp; Blockbench
+
 </div>
 
----
+<br />
 
-### Activity Graph
+## Projects
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DizzyMii&theme=github-dark&hide_border=true&area=true" alt="Activity Graph" />
-</p>
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **Landlord System** | Task delegation framework for multi-agent AI workflows and system orchestration | `TypeScript` `MCP` |
+| **Dreamcatcher** | Reverse engineering suite for server structures and network protocol analysis | `Java` `Kotlin` |
+| **Context Hunter** | Static analysis CLI that extracts developer context directly from executables | `Python` `CLI` |
+| **Enterprise Hiring Platform** | Solo-built application that streamlined an organization's end-to-end hiring process | `Full Stack` |
 
----
+<br />
+
+## Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&icon_color=8b949e&title_color=e6edf3&text_color=8b949e" height="170" alt="GitHub Stats" />
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DizzyMii&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e" height="170" alt="Top Languages" />
+
+<br /><br />
+
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com/?user=DizzyMii&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=21262d&ring=58a6ff&fire=58a6ff&currStreakLabel=e6edf3&sideLabels=8b949e&currStreakNum=e6edf3&sideNums=8b949e&dates=8b949e" alt="GitHub Streak" />
+</a>
+
+</div>
+
+<br />
+
+## Contribution Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DizzyMii&theme=github-dark&hide_border=true&area=true&bg_color=0d1117&color=8b949e&line=58a6ff&point=e6edf3&area_color=1a1b2e" alt="Activity Graph" />
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+</div>
+
+<br />
 
 <details>
-  <summary><h3>Workstation & Arsenal Specs</h3></summary>
+  <summary><strong>Workstation</strong></summary>
   <br />
-  
+
   <div align="center">
 
-  | Category | Specification / Tool |
+  | Component | Spec |
   | :--- | :--- |
-  | **Processor (CPU)** | AMD Ryzen 7 9800X3D  |
-  | **Graphics (GPU)** | AMD Radeon RX 9070 XT |
-  | **Target Display** | 1080p @ 240Hz (Optimized for Competitive FPS) |
-  | **Primary IDEs** | Google Antigravity, Windsurf |
-  | **Workflow Models** | Claude 3.5/4.5, Gemini 3 Pro |
-  | **Design & Assets** | Aseprite, Blockbench |
-  
+  | **CPU** | AMD Ryzen 7 9800X3D |
+  | **GPU** | AMD Radeon RX 9070 XT |
+  | **Display** | 1080p · 240Hz |
+  | **IDE** | Windsurf |
+  | **Design** | Aseprite · Blockbench |
+
   </div>
-  
 </details>
 
----
+<br />
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" alt="Footer Waving Animation" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1b2e&height=100&section=footer" width="100%" alt="Footer" />
