@@ -64,14 +64,41 @@ Self-taught developer building tools for problems most people don't touch — mu
 
 <br />
 
-## Projects
+## Featured Projects
 
-| Project | Description | Stack |
-| :--- | :--- | :--- |
-| **Landlord System** | Task delegation framework for multi-agent AI workflows and system orchestration | `TypeScript` `MCP` |
-| **Dreamcatcher** | Reverse engineering suite for server structures and network protocol analysis | `Java` `Kotlin` |
-| **Context Hunter** | Static analysis CLI that extracts developer context directly from executables | `Python` `CLI` |
-| **Enterprise Hiring Platform** | Solo-built application that streamlined an organization's end-to-end hiring process | `Full Stack` |
+<div align="center">
+
+<a href="https://github.com/DizzyMii/landlord-system">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DizzyMii&repo=landlord-system&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff" alt="Landlord System" />
+</a>
+&nbsp;
+<a href="https://github.com/DizzyMii/dreamcatcher">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DizzyMii&repo=dreamcatcher&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff" alt="Dreamcatcher" />
+</a>
+
+<br /><br />
+
+<a href="https://github.com/DizzyMii/context-hunter">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DizzyMii&repo=context-hunter&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff" alt="Context Hunter" />
+</a>
+&nbsp;
+<a href="https://github.com/DizzyMii/enterprise-hiring">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DizzyMii&repo=enterprise-hiring&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff" alt="Enterprise Hiring" />
+</a>
+
+</div>
+
+<br />
+
+## GitHub Achievements
+
+<div align="center">
+
+<a href="https://github.com/ryo-ma/github-profile-trophy">
+  <img src="https://github-profile-trophy.vercel.app/?username=DizzyMii&theme=github-dark&no-bg=true&no-frame=true&column=7&margin-w=15" alt="Trophies" />
+</a>
+
+</div>
 
 <br />
 
@@ -93,13 +120,33 @@ Self-taught developer building tools for problems most people don't touch — mu
 
 <br />
 
-## Contribution Graph
+## WakaTime Stats
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DizzyMii&theme=github-dark&hide_border=true&area=true&bg_color=0d1117&color=8b949e&line=58a6ff&point=e6edf3&area_color=1a1b2e" alt="Activity Graph" />
+<a href="https://github.com/anmol098/waka-readme-stats">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=DizzyMii&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff&layout=compact" alt="WakaTime Stats" />
+</a>
+
+</div>
 
 <br />
+
+## Recent Activity
+
+<div align="center">
+
+<a href="https://github.com/Readme-Activity-Graph">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DizzyMii&theme=github-dark&hide_border=true&area=true&bg_color=0d1117&color=8b949e&line=58a6ff&point=e6edf3&area_color=1a1b2e" alt="Activity Graph" />
+</a>
+
+</div>
+
+<br />
+
+## Contribution Snake
+
+<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake-dark.svg" />
@@ -122,6 +169,34 @@ Self-taught developer building tools for problems most people don't touch — mu
 | **Display** | 1080p · 240Hz |
 | **IDE** | Windsurf |
 | **Design** | Aseprite · Blockbench |
+
+</div>
+
+<br />
+
+## Let's Connect
+
+<div align="center">
+
+Open to discussing anything tech — feel free to reach out.
+
+<br /><br />
+
+<a href="https://github.com/DizzyMii">
+  <img src="https://img.shields.io/badge/GitHub-DizzyMii-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+&nbsp;
+<a href="https://discord.com/users/DizzyMii">
+  <img src="https://img.shields.io/badge/Discord-DizzyMii-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+</a>
+
+</div>
+
+<br />
+
+<div align="center">
+
+*Evolution is not an update. It is the result of a mind that refuses to stall.*
 
 </div>
 
