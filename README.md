@@ -64,29 +64,14 @@ Self-taught developer building tools for problems most people don't touch — mu
 
 <br />
 
-## Featured Projects
+## Projects
 
-<div align="center">
-
-<a href="https://github.com/DizzyMii/landlord-system">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DizzyMii&repo=landlord-system&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff" alt="Landlord System" />
-</a>
-&nbsp;
-<a href="https://github.com/DizzyMii/dreamcatcher">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DizzyMii&repo=dreamcatcher&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff" alt="Dreamcatcher" />
-</a>
-
-<br /><br />
-
-<a href="https://github.com/DizzyMii/context-hunter">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DizzyMii&repo=context-hunter&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff" alt="Context Hunter" />
-</a>
-&nbsp;
-<a href="https://github.com/DizzyMii/enterprise-hiring">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DizzyMii&repo=enterprise-hiring&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff" alt="Enterprise Hiring" />
-</a>
-
-</div>
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **Landlord System** | Task delegation framework for multi-agent AI workflows and system orchestration | `TypeScript` `MCP` |
+| **Dreamcatcher** | Reverse engineering suite for server structures and network protocol analysis | `Java` `Kotlin` |
+| **Context Hunter** | Static analysis CLI that extracts developer context directly from executables | `Python` `CLI` |
+| **Enterprise Hiring Platform** | Solo-built application that streamlined an organization's end-to-end hiring process | `Full Stack` |
 
 <br />
 
