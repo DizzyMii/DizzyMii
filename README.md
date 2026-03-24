@@ -111,22 +111,19 @@ Self-taught developer building tools for problems most people don't touch — mu
 
 <br />
 
-<details>
-  <summary><strong>Workstation</strong></summary>
-  <br />
+## Workstation
 
-  <div align="center">
+<div align="center">
 
-  | Component | Spec |
-  | :--- | :--- |
-  | **CPU** | AMD Ryzen 7 9800X3D |
-  | **GPU** | AMD Radeon RX 9070 XT |
-  | **Display** | 1080p · 240Hz |
-  | **IDE** | Windsurf |
-  | **Design** | Aseprite · Blockbench |
+| Component | Spec |
+| :--- | :--- |
+| **CPU** | AMD Ryzen 7 9800X3D |
+| **GPU** | AMD Radeon RX 9070 XT |
+| **Display** | 1080p · 240Hz |
+| **IDE** | Windsurf |
+| **Design** | Aseprite · Blockbench |
 
-  </div>
-</details>
+</div>
 
 <br />
 
