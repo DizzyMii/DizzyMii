@@ -105,18 +105,6 @@ Self-taught developer building tools for problems most people don't touch — mu
 
 <br />
 
-## WakaTime Stats
-
-<div align="center">
-
-<a href="https://github.com/anmol098/waka-readme-stats">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=DizzyMii&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff&layout=compact" alt="WakaTime Stats" />
-</a>
-
-</div>
-
-<br />
-
 ## Recent Activity
 
 <div align="center">
