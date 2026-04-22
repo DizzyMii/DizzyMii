@@ -69,3 +69,41 @@
 <span style="color:#e6edf3">visibility&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">public +</span>&nbsp;<span style="color:#d29922">classified</span>
 
 </div>
+
+<br/>
+
+<details>
+<summary><span style="color:#d29922">◆ MODULE: WORKSTATION</span></summary>
+<br/>
+<div>
+
+<span style="color:#e6edf3">CPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">AMD Ryzen 7 9800X3D</span><br/>
+<span style="color:#e6edf3">GPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">AMD Radeon RX 9070 XT</span><br/>
+<span style="color:#e6edf3">display&nbsp;│</span>&nbsp;<span style="color:#8b949e">1080p · 240Hz</span><br/>
+<span style="color:#e6edf3">IDE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">Windsurf</span><br/>
+<span style="color:#e6edf3">design&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">Aseprite · Blockbench</span>
+
+</div>
+</details>
+
+<br/>
+
+<div>
+
+<span style="color:#d29922">◆ MODULE: INTERFACES ───────────────────────────────────────────────────────────</span><br/>
+<span style="color:#e6edf3">github&nbsp;&nbsp;&nbsp;│</span>&nbsp;<a href="https://github.com/DizzyMii"><span style="color:#d29922">github.com/DizzyMii</span></a><br/>
+<span style="color:#e6edf3">discord&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">DizzyMii</span><br/>
+<br/>
+<span style="color:#8b949e">open to discussing anything — reach out.</span>
+
+</div>
+
+<br/>
+
+<div>
+
+<span style="color:#d29922">────────────────────────────────────────────────────────────────────────────────</span><br/>
+<span style="color:#8b949e"><em>Evolution is not an update. It is the result of a mind that refuses to stall.</em></span><br/>
+<span style="color:#d29922">█</span>
+
+</div>
