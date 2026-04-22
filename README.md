@@ -32,8 +32,7 @@
 
 Self-taught developer building tools for problems most people don't touch — multi-agent orchestration, network protocol analysis, and automated code intelligence. I work across the full stack but gravitate toward systems-level engineering and developer tooling.
 
-- Currently deep in **AI engineering** and **machine learning**
-- Building toward **Minecraft mod development** as a creative outlet
+- **Currently Building:** multi-agent AI orchestration tooling · Minecraft mod development
 - Believer that good software comes from understanding the system, not just the framework
 
 <br />
@@ -68,22 +67,10 @@ Self-taught developer building tools for problems most people don't touch — mu
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **Landlord System** | Task delegation framework for multi-agent AI workflows and system orchestration | `TypeScript` `MCP` |
-| **Dreamcatcher** | Reverse engineering suite for server structures and network protocol analysis | `Java` `Kotlin` |
-| **Context Hunter** | Static analysis CLI that extracts developer context directly from executables | `Python` `CLI` |
-| **Enterprise Hiring Platform** | Solo-built application that streamlined an organization's end-to-end hiring process | `Full Stack` |
-
-<br />
-
-## GitHub Achievements
-
-<div align="center">
-
-<a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=DizzyMii&theme=github-dark&no-bg=true&no-frame=true&column=7&margin-w=15" alt="Trophies" />
-</a>
-
-</div>
+| [**Landlord System**](https://github.com/DizzyMii/Landlord) | Task delegation framework for multi-agent AI workflows and system orchestration | `TypeScript` `MCP` |
+| [**Dreamcatcher**](https://github.com/DizzyMii/Dreamcatcher) | Reverse engineering suite for server structures and network protocol analysis | `Java` `Kotlin` |
+| [**ContextHunter**](https://github.com/DizzyMii/ContextHunter) | Static analysis CLI that extracts developer context directly from executables | `Python` `CLI` |
+| [**Enterprise Hiring Platform**](https://github.com/DizzyMii/HiringPlatform) | Solo-built application that streamlined an organization's end-to-end hiring process | `Full Stack` |
 
 <br />
 
@@ -105,21 +92,13 @@ Self-taught developer building tools for problems most people don't touch — mu
 
 <br />
 
-## Recent Activity
+## Contribution Graph
 
 <div align="center">
 
-<a href="https://github.com/Readme-Activity-Graph">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DizzyMii&theme=github-dark&hide_border=true&area=true&bg_color=0d1117&color=8b949e&line=58a6ff&point=e6edf3&area_color=1a1b2e" alt="Activity Graph" />
-</a>
-
-</div>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DizzyMii&theme=github-dark&hide_border=true&area=true&bg_color=0d1117&color=8b949e&line=58a6ff&point=e6edf3&area_color=1a1b2e" alt="Activity Graph" />
 
 <br />
-
-## Contribution Snake
-
-<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake-dark.svg" />
@@ -131,29 +110,30 @@ Self-taught developer building tools for problems most people don't touch — mu
 
 <br />
 
-## Workstation
+<details>
+  <summary><strong>Workstation</strong></summary>
+  <br />
 
-<div align="center">
+  <div align="center">
 
-| Component | Spec |
-| :--- | :--- |
-| **CPU** | AMD Ryzen 7 9800X3D |
-| **GPU** | AMD Radeon RX 9070 XT |
-| **Display** | 1080p · 240Hz |
-| **IDE** | Windsurf |
-| **Design** | Aseprite · Blockbench |
+  | Component | Spec |
+  | :--- | :--- |
+  | **CPU** | AMD Ryzen 7 9800X3D |
+  | **GPU** | AMD Radeon RX 9070 XT |
+  | **Display** | 1080p · 240Hz |
+  | **IDE** | Windsurf |
+  | **Design** | Aseprite · Blockbench |
 
-</div>
+  </div>
+</details>
 
 <br />
 
-## Let's Connect
-
 <div align="center">
 
-Open to discussing anything tech — feel free to reach out.
+**Let's Connect** &nbsp;·&nbsp; open to discussing anything tech
 
-<br /><br />
+<br />
 
 <a href="https://github.com/DizzyMii">
   <img src="https://img.shields.io/badge/GitHub-DizzyMii-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
