@@ -38,7 +38,7 @@
 
 <div>
 
-<span style="color:#d29922">◆ MODULE: STACK ─────────────────────────────────────────────────────────────────</span><br/>
+<span style="color:#d29922">◆ MODULE: STACK ────────────────────────────────────────────────────────────────</span><br/>
 <span style="color:#e6edf3">primary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">Java · Kotlin</span><br/>
 <span style="color:#e6edf3">scripting&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">Python · TypeScript · JavaScript</span><br/>
 <span style="color:#e6edf3">platform&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">Git · GitHub · Linux · Bash · Docker</span><br/>

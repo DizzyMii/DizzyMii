@@ -85,7 +85,7 @@ Add the following to the end of `README.md`:
 
 <div>
 
-<span style="color:#d29922">◆ MODULE: STACK ─────────────────────────────────────────────────────────────────</span><br/>
+<span style="color:#d29922">◆ MODULE: STACK ────────────────────────────────────────────────────────────────</span><br/>
 <span style="color:#e6edf3">primary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">Java · Kotlin</span><br/>
 <span style="color:#e6edf3">scripting&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">Python · TypeScript · JavaScript</span><br/>
 <span style="color:#e6edf3">platform&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">Git · GitHub · Linux · Bash · Docker</span><br/>
@@ -122,7 +122,7 @@ Add the following to the end of `README.md`:
 
 <div>
 
-<span style="color:#d29922">◆ MODULE: ACTIVE PROCESSES ──────────────────────────────────────────────────────</span><br/>
+<span style="color:#d29922">◆ MODULE: ACTIVE PROCESSES ─────────────────────────────────────────────────────</span><br/>
 <a href="https://github.com/DizzyMii/Landlord"><span style="color:#e6edf3">landlord</span></a><span style="color:#8b949e">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">● DEPLOYED</span>&nbsp;&nbsp;&nbsp;<span style="color:#8b949e">task delegation framework for multi-agent AI</span><br/>
 <a href="https://github.com/DizzyMii/Dreamcatcher"><span style="color:#e6edf3">dreamcatcher</span></a><span style="color:#8b949e">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">● ACTIVE</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8b949e">RE suite for server structures + protocol analysis</span><br/>
 <a href="https://github.com/DizzyMii/ContextHunter"><span style="color:#e6edf3">context-hunter</span></a><span style="color:#8b949e">&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#3fb950">● STABLE</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8b949e">static analysis CLI — extracts context from binaries</span><br/>
@@ -134,7 +134,7 @@ Add the following to the end of `README.md`:
 
 <div>
 
-<span style="color:#d29922">◆ MODULE: SYSTEM METRICS ────────────────────────────────────────────────────────</span><br/>
+<span style="color:#d29922">◆ MODULE: SYSTEM METRICS ───────────────────────────────────────────────────────</span><br/>
 <span style="color:#e6edf3">contributions&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">████████░░</span>&nbsp;<span style="color:#8b949e">see profile</span><br/>
 <span style="color:#e6edf3">primary lang&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">Java / Kotlin</span><br/>
 <span style="color:#e6edf3">streak&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">active</span><br/>
@@ -193,7 +193,7 @@ Add the following to the end of `README.md`:
 
 <div>
 
-<span style="color:#d29922">◆ MODULE: INTERFACES ────────────────────────────────────────────────────────────</span><br/>
+<span style="color:#d29922">◆ MODULE: INTERFACES ───────────────────────────────────────────────────────────</span><br/>
 <span style="color:#e6edf3">github&nbsp;&nbsp;&nbsp;│</span>&nbsp;<a href="https://github.com/DizzyMii"><span style="color:#d29922">github.com/DizzyMii</span></a><br/>
 <span style="color:#e6edf3">discord&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">DizzyMii</span><br/>
 <br/>
