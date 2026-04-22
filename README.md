@@ -45,3 +45,27 @@
 <span style="color:#e6edf3">design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">Aseprite · Blockbench</span>
 
 </div>
+
+<br/>
+
+<div>
+
+<span style="color:#d29922">◆ MODULE: ACTIVE PROCESSES ─────────────────────────────────────────────────────</span><br/>
+<a href="https://github.com/DizzyMii/Landlord"><span style="color:#e6edf3">landlord</span></a><span style="color:#8b949e">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">● DEPLOYED</span>&nbsp;&nbsp;&nbsp;<span style="color:#8b949e">task delegation framework for multi-agent AI</span><br/>
+<a href="https://github.com/DizzyMii/Dreamcatcher"><span style="color:#e6edf3">dreamcatcher</span></a><span style="color:#8b949e">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">● ACTIVE</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8b949e">RE suite for server structures + protocol analysis</span><br/>
+<a href="https://github.com/DizzyMii/ContextHunter"><span style="color:#e6edf3">context-hunter</span></a><span style="color:#8b949e">&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#3fb950">● STABLE</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8b949e">static analysis CLI — extracts context from binaries</span><br/>
+<a href="https://github.com/DizzyMii/HiringPlatform"><span style="color:#e6edf3">hiring-platform</span></a><span style="color:#8b949e">&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">○ ARCHIVED&nbsp;&nbsp;&nbsp;solo-built end-to-end hiring process application</span>
+
+</div>
+
+<br/>
+
+<div>
+
+<span style="color:#d29922">◆ MODULE: SYSTEM METRICS ───────────────────────────────────────────────────────</span><br/>
+<span style="color:#e6edf3">contributions&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">████████░░</span>&nbsp;<span style="color:#8b949e">see profile</span><br/>
+<span style="color:#e6edf3">primary lang&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">Java / Kotlin</span><br/>
+<span style="color:#e6edf3">streak&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">active</span><br/>
+<span style="color:#e6edf3">visibility&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">public +</span>&nbsp;<span style="color:#d29922">classified</span>
+
+</div>
