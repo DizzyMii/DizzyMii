@@ -1,109 +1,158 @@
-<div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1b2e&height=120&section=header&text=&fontSize=0" width="100%" alt="Header" />
 
-<span style="color:#d29922">SYSTEM BOOT ─ DizzyMii OS v2.0 ─────────────────────────────────────────────────</span><br/>
-<span style="color:#3fb950">[OK]</span>&nbsp;&nbsp;<span style="color:#8b949e">loading identity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;......</span>&nbsp;<span style="color:#e6edf3">done</span><br/>
-<span style="color:#3fb950">[OK]</span>&nbsp;&nbsp;<span style="color:#8b949e">mounting stack&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;......</span>&nbsp;<span style="color:#e6edf3">done</span><br/>
-<span style="color:#3fb950">[OK]</span>&nbsp;&nbsp;<span style="color:#8b949e">initializing agents&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;......</span>&nbsp;<span style="color:#e6edf3">done</span><br/>
-<span style="color:#d29922">[!!]</span>&nbsp;&nbsp;<span style="color:#8b949e">reverse engineering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;......</span>&nbsp;<span style="color:#d29922">active</span><br/>
-<span style="color:#3fb950">[OK]</span>&nbsp;&nbsp;<span style="color:#8b949e">minecraft runtime&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;......</span>&nbsp;<span style="color:#e6edf3">loaded</span><br/>
-<span style="color:#d29922">────────────────────────────────────────────────────────────────────────────────</span>
+<div align="center">
 
-</div>
+# DizzyMii
 
-<br/>
+**System Architect · Context Engineer · Reverse Engineer**
 
-<div>
+<br />
 
-<span style="color:#d29922">▶ INCOMING SIGNAL ──────────────────────────────────────────────────────────────</span><br/>
-<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#e6edf3"><em>"I don't just use systems. I take them apart."</em></span><br/>
-<br/>
-<span style="color:#d29922">▶ SIGNAL END ───────────────────────────────────────────────────────────────────</span>
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=1000&color=8B949E&center=true&vCenter=true&width=500&lines=multi-agent+orchestration;protocol+reverse+engineering;automated+static+analysis;enterprise+software+development" alt="Typing SVG" />
+</a>
 
-</div>
+<br />
 
-<br/>
-
-<div>
-
-<span style="color:#d29922">◆ MODULE: IDENTITY ─────────────────────────────────────────────────────────────</span><br/>
-<span style="color:#e6edf3">CLASSIFICATION&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">System Architect · Context Engineer · Reverse Engineer</span><br/>
-<span style="color:#e6edf3">ORIGIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">self-taught · no bootcamp · no framework tutorials</span><br/>
-<span style="color:#e6edf3">PHILOSOPHY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">understand the system, not just the framework</span><br/>
-<span style="color:#e6edf3">CURRENT BUILD&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">multi-agent orchestration · Minecraft mods</span>
+<a href="https://github.com/DizzyMii">
+  <img src="https://img.shields.io/github/followers/DizzyMii?style=flat&logo=github&logoColor=white&label=Follow&color=0d1117&labelColor=161b22" alt="GitHub Followers" />
+</a>
+&nbsp;
+<a href="https://discord.com/users/DizzyMii">
+  <img src="https://img.shields.io/badge/DizzyMii-%235865F2?style=flat&logo=discord&logoColor=white&labelColor=161b22" alt="Discord" />
+</a>
+&nbsp;
+<img src="https://komarev.com/ghpvc/?username=DizzyMii&color=161b22&style=flat&label=views" alt="Profile Views" />
 
 </div>
 
-<br/>
+<br />
 
-<div>
+## About
 
-<span style="color:#d29922">◆ MODULE: STACK ────────────────────────────────────────────────────────────────</span><br/>
-<span style="color:#e6edf3">primary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">Java · Kotlin</span><br/>
-<span style="color:#e6edf3">scripting&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">Python · TypeScript · JavaScript</span><br/>
-<span style="color:#e6edf3">platform&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">Git · GitHub · Linux · Bash · Docker</span><br/>
-<span style="color:#e6edf3">design&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">Aseprite · Blockbench</span>
+Self-taught developer building tools for problems most people don't touch — multi-agent orchestration, network protocol analysis, and automated code intelligence. I work across the full stack but gravitate toward systems-level engineering and developer tooling.
+
+- **Currently Building:** multi-agent AI orchestration tooling · Minecraft mod development
+- Believer that good software comes from understanding the system, not just the framework
+
+<br />
+
+## Tech Stack
+
+<div align="center">
+
+**Languages**
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=java,kotlin,ts,js,py&theme=dark" alt="Languages" />
+</a>
+
+<br /><br />
+
+**Tools & Platforms**
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=git,github,linux,bash,docker&theme=dark" alt="Tools" />
+</a>
+
+<br /><br />
+
+**Design & Assets** &nbsp;·&nbsp; Aseprite &nbsp;·&nbsp; Blockbench
 
 </div>
 
-<br/>
+<br />
 
-<div>
+## Projects
 
-<span style="color:#d29922">◆ MODULE: ACTIVE PROCESSES ─────────────────────────────────────────────────────</span><br/>
-<a href="https://github.com/DizzyMii/Landlord"><span style="color:#e6edf3">landlord</span></a><span style="color:#8b949e">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">● DEPLOYED</span>&nbsp;&nbsp;&nbsp;<span style="color:#8b949e">task delegation framework for multi-agent AI</span><br/>
-<a href="https://github.com/DizzyMii/Dreamcatcher"><span style="color:#e6edf3">dreamcatcher</span></a><span style="color:#8b949e">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">● ACTIVE</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8b949e">RE suite for server structures + protocol analysis</span><br/>
-<a href="https://github.com/DizzyMii/ContextHunter"><span style="color:#e6edf3">context-hunter</span></a><span style="color:#8b949e">&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#3fb950">● STABLE</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#8b949e">static analysis CLI — extracts context from binaries</span><br/>
-<a href="https://github.com/DizzyMii/HiringPlatform"><span style="color:#e6edf3">hiring-platform</span></a><span style="color:#8b949e">&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">○ ARCHIVED&nbsp;&nbsp;&nbsp;solo-built end-to-end hiring process application</span>
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| [**Landlord System**](https://github.com/DizzyMii/Landlord) | Task delegation framework for multi-agent AI workflows and system orchestration | `TypeScript` `MCP` |
+| [**Dreamcatcher**](https://github.com/DizzyMii/Dreamcatcher) | Reverse engineering suite for server structures and network protocol analysis | `Java` `Kotlin` |
+| [**ContextHunter**](https://github.com/DizzyMii/ContextHunter) | Static analysis CLI that extracts developer context directly from executables | `Python` `CLI` |
+| [**Enterprise Hiring Platform**](https://github.com/DizzyMii/HiringPlatform) | Solo-built application that streamlined an organization's end-to-end hiring process | `Full Stack` |
+
+<br />
+
+## Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&icon_color=8b949e&title_color=e6edf3&text_color=8b949e" height="170" alt="GitHub Stats" />
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DizzyMii&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e" height="170" alt="Top Languages" />
+
+<br /><br />
+
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com/?user=DizzyMii&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=21262d&ring=58a6ff&fire=58a6ff&currStreakLabel=e6edf3&sideLabels=8b949e&currStreakNum=e6edf3&sideNums=8b949e&dates=8b949e" alt="GitHub Streak" />
+</a>
 
 </div>
 
-<br/>
+<br />
 
-<div>
+## Contribution Graph
 
-<span style="color:#d29922">◆ MODULE: SYSTEM METRICS ───────────────────────────────────────────────────────</span><br/>
-<span style="color:#e6edf3">contributions&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">████████░░</span>&nbsp;<span style="color:#8b949e">see profile</span><br/>
-<span style="color:#e6edf3">primary lang&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">Java / Kotlin</span><br/>
-<span style="color:#e6edf3">streak&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">active</span><br/>
-<span style="color:#e6edf3">visibility&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">public +</span>&nbsp;<span style="color:#d29922">classified</span>
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DizzyMii&theme=github-dark&hide_border=true&area=true&bg_color=0d1117&color=8b949e&line=58a6ff&point=e6edf3&area_color=1a1b2e" alt="Activity Graph" />
+
+<br />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 
 </div>
 
-<br/>
+<br />
 
 <details>
-<summary><span style="color:#d29922">◆ MODULE: WORKSTATION</span></summary>
-<br/>
-<div>
+  <summary><strong>Workstation</strong></summary>
+  <br />
 
-<span style="color:#e6edf3">CPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">AMD Ryzen 7 9800X3D</span><br/>
-<span style="color:#e6edf3">GPU&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">AMD Radeon RX 9070 XT</span><br/>
-<span style="color:#e6edf3">display&nbsp;│</span>&nbsp;<span style="color:#8b949e">1080p · 240Hz</span><br/>
-<span style="color:#e6edf3">IDE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">Windsurf</span><br/>
-<span style="color:#e6edf3">design&nbsp;&nbsp;│</span>&nbsp;<span style="color:#8b949e">Aseprite · Blockbench</span>
+  <div align="center">
 
-</div>
+  | Component | Spec |
+  | :--- | :--- |
+  | **CPU** | AMD Ryzen 7 9800X3D |
+  | **GPU** | AMD Radeon RX 9070 XT |
+  | **Display** | 1080p · 240Hz |
+  | **IDE** | Windsurf |
+  | **Design** | Aseprite · Blockbench |
+
+  </div>
 </details>
 
-<br/>
+<br />
 
-<div>
+<div align="center">
 
-<span style="color:#d29922">◆ MODULE: INTERFACES ───────────────────────────────────────────────────────────</span><br/>
-<span style="color:#e6edf3">github&nbsp;&nbsp;&nbsp;│</span>&nbsp;<a href="https://github.com/DizzyMii"><span style="color:#d29922">github.com/DizzyMii</span></a><br/>
-<span style="color:#e6edf3">discord&nbsp;&nbsp;│</span>&nbsp;<span style="color:#d29922">DizzyMii</span><br/>
-<br/>
-<span style="color:#8b949e">open to discussing anything — reach out.</span>
+**Let's Connect** &nbsp;·&nbsp; open to discussing anything tech
+
+<br />
+
+<a href="https://github.com/DizzyMii">
+  <img src="https://img.shields.io/badge/GitHub-DizzyMii-0d1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+</a>
+&nbsp;
+<a href="https://discord.com/users/DizzyMii">
+  <img src="https://img.shields.io/badge/Discord-DizzyMii-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+</a>
+
+</div>
+
+<br />
+
+<div align="center">
+
+*Evolution is not an update. It is the result of a mind that refuses to stall.*
 
 </div>
 
-<br/>
+<br />
 
-<div>
-
-<span style="color:#d29922">────────────────────────────────────────────────────────────────────────────────</span><br/>
-<span style="color:#8b949e"><em>Evolution is not an update. It is the result of a mind that refuses to stall.</em></span><br/>
-<span style="color:#d29922">█</span>
-
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1b2e&height=100&section=footer" width="100%" alt="Footer" />
