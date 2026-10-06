@@ -14,7 +14,7 @@ I build tooling for AI agents and Minecraft mods, mostly in Python, TypeScript a
 
 <div align="center"><img src="assets/terminal.svg" width="760" alt="terminal: whoami, ls ~/projects, landlord tagline, 660 notes" /></div>
 
-## Agents
+<img src="assets/h-agents.svg" width="100%" alt="Agents" />
 
 <div align="center">
 <a href="https://github.com/DizzyMii/fable-skills"><img src="assets/card-fable-skills.svg" width="49%" alt="fable-skills: six Claude Code skills that push Opus 4.8 toward Fable 5 behavior" /></a>
@@ -29,13 +29,13 @@ I build tooling for AI agents and Minecraft mods, mostly in Python, TypeScript a
 
 </div>
 
-## Smaller stuff
+<img src="assets/h-smaller-stuff.svg" width="100%" alt="Smaller stuff" />
 
 - [Git-Kitchen](https://github.com/DizzyMii/Git-Kitchen): Overcooked-themed multiplayer game for teaching testers git and PR hygiene
 - [TestWeave](https://github.com/DizzyMii/TestWeave): drag-and-drop blocks in, Playwright / Selenium / Cypress / Puppeteer tests out
 - [Resilient-Locator-Extractor](https://github.com/DizzyMii/Resilient-Locator-Extractor): CLI + Chrome extension that ranks selectors by how likely they are to survive DOM changes
 
-## Stack
+<img src="assets/h-stack.svg" width="100%" alt="Stack" />
 
 <div align="center">
 <img src="https://img.shields.io/badge/python-0d1117?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -54,11 +54,10 @@ I build tooling for AI agents and Minecraft mods, mostly in Python, TypeScript a
 <img src="https://img.shields.io/badge/blockbench-ac3232?style=for-the-badge" alt="Blockbench" />
 </div>
 
-## Stats
+<img src="assets/h-stats.svg" width="100%" alt="Stats" />
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ac3232&icon_color=ac3232&ring_color=ac3232&text_color=e6edf3" height="165" alt="GitHub stats" />
-<img src="https://streak-stats.demolab.com/?user=DizzyMii&hide_border=true&background=0d1117&stroke=30363d&ring=ac3232&fire=ac3232&currStreakNum=e6edf3&currStreakLabel=ac3232&sideNums=e6edf3&sideLabels=8b949e&dates=8b949e" height="165" alt="GitHub streak" />
+<img src="assets/stats.svg" width="760" alt="contributions, stars, pull requests, streak and top languages" />
 <br /><br />
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake-dark.svg" />

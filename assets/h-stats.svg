@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 52" width="1200" height="52">
+<polygon points="14,6 129,6 115,46 0,46" fill="#ac3232"/>
+<text x="24" y="35" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="24" font-weight="900" font-style="italic" fill="#f2f2f2" letter-spacing="1">STATS</text>
+<polygon points="137,6 149,6 135,46 123,46" fill="#ac3232"/>
+<rect x="159" y="40" width="1041" height="6" fill="#30363d"/>
+</svg>

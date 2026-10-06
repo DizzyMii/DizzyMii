@@ -137,8 +137,88 @@ def footer():
 '''
 
 
+def heading(label):
+    w = 40 + len(label) * 15
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 52" width="1200" height="52">
+<polygon points="14,6 {w + 14},6 {w},46 0,46" fill="{RED}"/>
+<text x="24" y="35" font-family="{SANS}" font-size="24" font-weight="900" font-style="italic" fill="{WHITE}" letter-spacing="1">{escape(label)}</text>
+<polygon points="{w + 22},6 {w + 34},6 {w + 20},46 {w + 8},46" fill="{RED}"/>
+<rect x="{w + 44}" y="40" width="{1200 - w - 44}" height="6" fill="#30363d"/>
+</svg>
+'''
+
+
+QUERY = """query($login: String!) { user(login: $login) {
+  followers { totalCount }
+  repositories(ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC, first: 100) { nodes {
+    stargazerCount languages(first: 10, orderBy: {field: SIZE, direction: DESC}) { edges { size node { name } } } } }
+  contributionsCollection { totalCommitContributions totalPullRequestContributions
+    contributionCalendar { totalContributions weeks { contributionDays { contributionCount } } } } } }"""
+
+
+def fetch_stats(login="DizzyMii"):
+    import json, subprocess
+    out = subprocess.run(["gh", "api", "graphql", "-f", f"query={QUERY}", "-f", f"login={login}"],
+                         capture_output=True, text=True, check=True).stdout
+    u = json.loads(out)["data"]["user"]
+    repos = u["repositories"]["nodes"]
+    langs = {}
+    for r in repos:
+        for e in r["languages"]["edges"]:
+            langs[e["node"]["name"]] = langs.get(e["node"]["name"], 0) + e["size"]
+    c = u["contributionsCollection"]
+    days = [d["contributionCount"] for w in c["contributionCalendar"]["weeks"] for d in w["contributionDays"]]
+    if days and days[-1] == 0:  # today not started yet doesn't break the streak
+        days.pop()
+    streak = 0
+    for n in reversed(days):
+        if not n:
+            break
+        streak += 1
+    return {
+        "numbers": [("CONTRIBUTIONS", c["contributionCalendar"]["totalContributions"]),
+                    ("STARS EARNED", sum(r["stargazerCount"] for r in repos)),
+                    ("PULL REQUESTS", c["totalPullRequestContributions"]),
+                    ("DAY STREAK", streak)],
+        "langs": sorted(langs.items(), key=lambda kv: -kv[1])[:5],
+    }
+
+
+def stats(s):
+    cells = "".join(
+        f'<text x="{40 + i * 205}" y="112" font-family="{SANS}" font-size="52" font-weight="900" font-style="italic" fill="{INK}">{n:,}</text>'
+        f'<text x="{42 + i * 205}" y="138" font-family="{MONO}" font-size="12" font-weight="700" fill="{RED}" letter-spacing="2">{label}</text>'
+        for i, (label, n) in enumerate(s["numbers"]))
+    total = sum(v for _, v in s["langs"]) or 1
+    bars = ""
+    for i, (name, v) in enumerate(s["langs"]):
+        y, pct = 196 + i * 30, v / total
+        bars += (f'<text x="40" y="{y + 13}" font-family="{MONO}" font-size="13" font-weight="700" fill="{INK}">{escape(name.upper())}</text>'
+                 f'<rect x="220" y="{y}" width="540" height="16" fill="#e1e4e8"/>'
+                 f'<rect x="220" y="{y}" width="0" height="16" fill="{RED if i == 0 else INK}">'
+                 f'<animate attributeName="width" to="{540 * pct:.0f}" dur=".9s" begin="{0.2 + i * 0.12:.2f}s" fill="freeze" calcMode="spline" keySplines=".2 0 .2 1" keyTimes="0;1"/></rect>'
+                 f'<text x="820" y="{y + 13}" text-anchor="end" font-family="{MONO}" font-size="13" fill="{GREY}">{pct:.0%}</text>')
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 360" width="860" height="360">
+<rect x=".5" y=".5" width="859" height="359" fill="{WHITE}" stroke="{RULE}"/>
+<rect width="10" height="360" fill="{RED}"/>
+<polygon points="760,0 860,0 860,70" fill="{RED}"/><line x1="800" y1="0" x2="860" y2="42" stroke="{WHITE}" stroke-width="3"/>
+<text x="40" y="40" font-family="{MONO}" font-size="12" font-weight="700" fill="{GREY}" letter-spacing="2">LAST 12 MONTHS</text>
+{cells}
+<rect x="40" y="162" width="780" height="2" fill="{RULE}"/>
+<text x="40" y="184" font-family="{MONO}" font-size="12" font-weight="700" fill="{GREY}" letter-spacing="2">LANGUAGES / PUBLIC REPOS</text>
+{bars}
+</svg>
+'''
+
+
 (OUT / "hero.svg").write_text(hero(), encoding="utf-8")
 (OUT / "terminal.svg").write_text(terminal(), encoding="utf-8")
 (OUT / "footer.svg").write_text(footer(), encoding="utf-8")
 for c in CARDS:
     (OUT / f"card-{c[0].lower()}.svg").write_text(card(*c), encoding="utf-8")
+for h in ["AGENTS", "SMALLER STUFF", "STACK", "STATS"]:
+    (OUT / f"h-{h.lower().replace(' ', '-')}.svg").write_text(heading(h), encoding="utf-8")
+try:
+    (OUT / "stats.svg").write_text(stats(fetch_stats()), encoding="utf-8")
+except Exception as e:  # no gh / no network: keep the last stats.svg
+    print("stats skipped:", e)
