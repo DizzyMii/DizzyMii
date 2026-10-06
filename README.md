@@ -1,12 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f2a48,100:8957e5&height=180&section=header&text=Kade%20Heglin&fontColor=e6edf3&fontSize=48&fontAlignY=38&desc=DizzyMii&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Kade Heglin" />
+<img src="assets/hero.svg" width="100%" alt="Kade Heglin, DizzyMii. agent tooling, claude skills, minecraft mods" />
 
 <div align="center">
-
-<a href="https://github.com/DizzyMii">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=A371F7&center=true&vCenter=true&width=560&lines=parallel+Claude+agents+with+contracts;skills+that+make+Opus+behave;660+linked+notes+on+AI+engineering;TypeScript+agent+runtime%2C+one+dependency" alt="what I build" />
-</a>
-
-<br />
 
 <img src="https://img.shields.io/github/followers/DizzyMii?style=flat&logo=github&logoColor=white&label=followers&color=8957e5&labelColor=161b22" alt="followers" />
 <img src="https://img.shields.io/badge/discord-DizzyMii-5865F2?style=flat&logo=discord&logoColor=white&labelColor=161b22" alt="Discord: DizzyMii" />
@@ -17,6 +11,8 @@
 <br />
 
 I build tooling for AI agents and Minecraft mods, mostly in Python, TypeScript and Java. Self-taught. Most of what's here started as something I wanted for myself and got out of hand (the AI engineering vault was supposed to be a few notes, it's 660 now).
+
+<div align="center"><img src="assets/terminal.svg" width="760" alt="terminal: whoami, ls ~/projects, landlord tagline, 660 notes" /></div>
 
 ## Agents
 
@@ -51,6 +47,8 @@ I build tooling for AI agents and Minecraft mods, mostly in Python, TypeScript a
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&count_private=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=a371f7&text_color=8b949e" height="165" alt="GitHub stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DizzyMii&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a371f7&text_color=8b949e" height="165" alt="Top languages" />
+<br /><br />
+<img src="https://github-trophies.vercel.app/?username=DizzyMii&title=Stars,Commits,PullRequest,MultiLanguage,LongTimeUser,Repositories&theme=onedark&no-frame=true&no-bg=true&column=6&margin-w=8" width="100%" alt="trophies" />
 <br /><br />
 <img src="https://streak-stats.demolab.com/?user=DizzyMii&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=21262d&ring=a371f7&fire=a371f7&currStreakLabel=e6edf3&sideLabels=8b949e&currStreakNum=e6edf3&sideNums=8b949e&dates=8b949e" alt="GitHub streak" />
 <br /><br />
