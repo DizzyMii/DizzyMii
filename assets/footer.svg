@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 48" width="1200" height="48">
+<rect width="1200" height="48" fill="#f2f2f2"/>
+<polygon points="0,0 900,0 880,48 0,48" fill="#0d1117"/>
+<polygon points="912,0 1200,0 1200,48 892,48" fill="#ac3232"/>
+<text x="1176" y="31" text-anchor="end" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="14" font-weight="700" fill="#f2f2f2" letter-spacing="3">DM</text>
+</svg>

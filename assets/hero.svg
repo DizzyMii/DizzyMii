@@ -1,39 +1,25 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
 <style>
-  .wire { stroke: #a371f7; stroke-opacity: .45; stroke-width: 1.5; stroke-dasharray: 4 8; animation: flow 1.2s linear infinite; }
-  @keyframes flow { to { stroke-dashoffset: -24; } }
+  .wire { stroke: #f2f2f2; stroke-opacity: .55; stroke-width: 2; stroke-dasharray: 6 8; animation: flow 1s linear infinite; }
+  .run { stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: run 4s cubic-bezier(.6,0,.2,1) infinite; }
+  @keyframes flow { to { stroke-dashoffset: -28; } }
+  @keyframes run { 0% { stroke-dashoffset: 1400; } 45%, 70% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -1400; } }
 </style>
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#17122e"/></linearGradient>
-  <radialGradient id="glow" cx=".75" cy=".5" r=".45"><stop offset="0" stop-color="#8957e5" stop-opacity=".38"/><stop offset="1" stop-color="#8957e5" stop-opacity="0"/></radialGradient>
-  <linearGradient id="shine" x1="0" x2="700" gradientUnits="userSpaceOnUse" spreadMethod="repeat">
-    <stop offset="0" stop-color="#e6edf3"/><stop offset=".35" stop-color="#a371f7"/><stop offset=".65" stop-color="#58a6ff"/><stop offset="1" stop-color="#e6edf3"/>
-    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="700 0" dur="6s" repeatCount="indefinite"/>
-  </linearGradient>
-  <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#8957e5" stop-opacity="0"/><stop offset=".5" stop-color="#a371f7"/><stop offset="1" stop-color="#58a6ff" stop-opacity="0"/></linearGradient>
-  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#30363d" stroke-opacity=".45"/></pattern>
-  <linearGradient id="fadeR" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".15"/><stop offset="1" stop-color="#fff"/></linearGradient>
-  <mask id="m"><rect width="1200" height="300" fill="url(#fadeR)"/></mask>
-  <clipPath id="clip"><rect width="1200" height="300" rx="14"/></clipPath>
-</defs>
-<g clip-path="url(#clip)">
-  <rect width="1200" height="300" fill="url(#bg)"/>
-  <g mask="url(#m)"><rect y="-40" width="1200" height="380" fill="url(#grid)">
-    <animateTransform attributeName="transform" type="translate" from="0 0" to="0 40" dur="5s" repeatCount="indefinite"/></rect></g>
-  <rect width="1200" height="300" fill="url(#glow)"/>
-  <line x1="900" y1="150" x2="1060" y2="62" class="wire"/><line x1="900" y1="150" x2="1110" y2="175" class="wire"/><line x1="900" y1="150" x2="1010" y2="255" class="wire"/><line x1="900" y1="150" x2="790" y2="245" class="wire"/><line x1="900" y1="150" x2="760" y2="70" class="wire"/>
-  <circle r="3" fill="#58a6ff"><animateMotion dur="2.4s" begin="0.0s" repeatCount="indefinite" path="M900,150 L1060,62"/></circle><circle r="3" fill="#58a6ff"><animateMotion dur="2.4s" begin="0.45s" repeatCount="indefinite" path="M900,150 L1110,175"/></circle><circle r="3" fill="#58a6ff"><animateMotion dur="2.4s" begin="0.9s" repeatCount="indefinite" path="M900,150 L1010,255"/></circle><circle r="3" fill="#58a6ff"><animateMotion dur="2.4s" begin="1.35s" repeatCount="indefinite" path="M900,150 L790,245"/></circle><circle r="3" fill="#58a6ff"><animateMotion dur="2.4s" begin="1.8s" repeatCount="indefinite" path="M900,150 L760,70"/></circle>
-  <circle cx="1060" cy="62" r="7" fill="#a371f7"><animate attributeName="r" values="7;9;7" dur="2.4s" begin="0.0s" repeatCount="indefinite"/></circle><circle cx="1110" cy="175" r="7" fill="#a371f7"><animate attributeName="r" values="7;9;7" dur="2.4s" begin="0.45s" repeatCount="indefinite"/></circle><circle cx="1010" cy="255" r="7" fill="#a371f7"><animate attributeName="fill" dur="7s" repeatCount="indefinite" values="#a371f7;#a371f7;#f85149;#f85149;#3fb950;#a371f7" keyTimes="0;.45;.5;.62;.7;1"/><animate attributeName="r" values="7;9;7" dur="2.4s" begin="0.9s" repeatCount="indefinite"/></circle><circle cx="790" cy="245" r="7" fill="#a371f7"><animate attributeName="r" values="7;9;7" dur="2.4s" begin="1.35s" repeatCount="indefinite"/></circle><circle cx="760" cy="70" r="7" fill="#a371f7"><animate attributeName="r" values="7;9;7" dur="2.4s" begin="1.8s" repeatCount="indefinite"/></circle>
-  <circle cx="900" cy="150" r="26" fill="none" stroke="#a371f7" stroke-opacity=".5">
-    <animate attributeName="r" values="18;40" dur="2.4s" repeatCount="indefinite"/>
-    <animate attributeName="stroke-opacity" values=".6;0" dur="2.4s" repeatCount="indefinite"/></circle>
-  <circle cx="900" cy="150" r="16" fill="#0d1117" stroke="#a371f7" stroke-width="3"/>
-  <circle cx="900" cy="150" r="6" fill="#e6edf3"/>
-  <g>
-    <text x="72" y="104" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="16" fill="#a371f7">&gt; DizzyMii</text>
-    <text x="68" y="170" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="72" font-weight="800" fill="url(#shine)">Kade Heglin</text>
-    <text x="72" y="214" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="19" fill="#8b949e">agent tooling · claude skills · minecraft mods</text>
-  </g>
-  <rect y="297" width="1200" height="3" fill="url(#edge)"/>
-</g>
+<rect width="1200" height="300" fill="#f2f2f2"/>
+<polygon points="780,0 1200,0 1200,300 690,300" fill="#ac3232"/>
+<line x1="742" y1="300" x2="830" y2="0" stroke="#f2f2f2" stroke-width="5"/>
+<line x1="700" y1="318" x2="790" y2="-10" stroke="#ac3232" stroke-width="3"/>
+<line x1="960" y1="150" x2="1100" y2="60" class="wire"/><line x1="960" y1="150" x2="1140" y2="180" class="wire"/><line x1="960" y1="150" x2="1050" y2="255" class="wire"/><line x1="960" y1="150" x2="850" y2="250" class="wire"/><line x1="960" y1="150" x2="870" y2="62" class="wire"/>
+<rect x="-3" y="-3" width="6" height="6" fill="#f2f2f2"><animateMotion dur="2.4s" begin="0.0s" repeatCount="indefinite" path="M960,150 L1100,60"/></rect><rect x="-3" y="-3" width="6" height="6" fill="#f2f2f2"><animateMotion dur="2.4s" begin="0.45s" repeatCount="indefinite" path="M960,150 L1140,180"/></rect><rect x="-3" y="-3" width="6" height="6" fill="#f2f2f2"><animateMotion dur="2.4s" begin="0.9s" repeatCount="indefinite" path="M960,150 L1050,255"/></rect><rect x="-3" y="-3" width="6" height="6" fill="#f2f2f2"><animateMotion dur="2.4s" begin="1.35s" repeatCount="indefinite" path="M960,150 L850,250"/></rect><rect x="-3" y="-3" width="6" height="6" fill="#f2f2f2"><animateMotion dur="2.4s" begin="1.8s" repeatCount="indefinite" path="M960,150 L870,62"/></rect>
+<circle cx="960" cy="150" r="20" fill="none" stroke="#f2f2f2" stroke-width="2">
+  <animate attributeName="r" values="20;46" dur="2.4s" repeatCount="indefinite"/>
+  <animate attributeName="stroke-opacity" values="1;0" dur="2.4s" repeatCount="indefinite"/></circle>
+<rect x="1093" y="53" width="14" height="14" fill="#f2f2f2" transform="rotate(45 1100 60)"></rect><rect x="1133" y="173" width="14" height="14" fill="#f2f2f2" transform="rotate(45 1140 180)"></rect><rect x="1043" y="248" width="14" height="14" fill="#f2f2f2" transform="rotate(45 1050 255)"><animate attributeName="fill" dur="7s" repeatCount="indefinite" calcMode="discrete" values="#f2f2f2;#0d1117;#f2f2f2;#0d1117;#f2f2f2" keyTimes="0;.5;.56;.62;.7"/></rect><rect x="843" y="243" width="14" height="14" fill="#f2f2f2" transform="rotate(45 850 250)"></rect><rect x="863" y="55" width="14" height="14" fill="#f2f2f2" transform="rotate(45 870 62)"></rect>
+<rect x="944" y="134" width="32" height="32" fill="#0d1117" stroke="#f2f2f2" stroke-width="4" transform="rotate(45 960 150)"/>
+<rect x="64" y="70" width="138" height="26" fill="#ac3232" transform="skewX(-14)"/>
+<text x="80" y="89" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="15" font-weight="700" fill="#f2f2f2" letter-spacing="2">DIZZYMII</text>
+<text x="60" y="172" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="80" font-weight="900" font-style="italic" fill="#0d1117" letter-spacing="-1">KADE HEGLIN</text>
+<path d="M64 196 H560 L590 220 H640" fill="none" stroke="#ac3232" stroke-width="5" class="run"/>
+<text x="64" y="252" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="16" font-weight="700" fill="#57606a" letter-spacing="3">AGENT TOOLING / CLAUDE SKILLS / MINECRAFT MODS</text>
+<rect width="1200" height="6" fill="#0d1117"/>
 </svg>

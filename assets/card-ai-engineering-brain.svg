@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 180" width="440" height="180">
+<rect x=".5" y=".5" width="439" height="179" fill="#f2f2f2" stroke="#d0d7de"/>
+<rect width="10" height="180" fill="#ac3232"/>
+<polygon points="360,0 440,0 440,56" fill="#ac3232"/>
+<line x1="392" y1="0" x2="440" y2="34" stroke="#f2f2f2" stroke-width="3"/>
+<text x="34" y="34" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#ac3232" letter-spacing="2">OBSIDIAN / 660 NOTES</text>
+<text x="32" y="64" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="26" font-weight="900" font-style="italic" fill="#0d1117">AI-ENGINEERING-BRAIN</text>
+<g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" fill="#57606a"><text x="34" y="92">Linked notes from floating point up to inference</text><text x="34" y="112">economics. Every applied claim carries an evidence</text><text x="34" y="132">tier, a source and a date.</text></g>
+</svg>

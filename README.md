@@ -2,9 +2,9 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/github/followers/DizzyMii?style=flat&logo=github&logoColor=white&label=followers&color=8957e5&labelColor=161b22" alt="followers" />
-<img src="https://img.shields.io/badge/discord-DizzyMii-5865F2?style=flat&logo=discord&logoColor=white&labelColor=161b22" alt="Discord: DizzyMii" />
-<img src="https://komarev.com/ghpvc/?username=DizzyMii&color=8957e5&style=flat&label=views" alt="profile views" />
+<img src="https://img.shields.io/github/followers/DizzyMii?style=for-the-badge&logo=github&logoColor=white&label=followers&color=ac3232&labelColor=0d1117" alt="followers" />
+<img src="https://img.shields.io/badge/discord-DizzyMii-ac3232?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d1117" alt="Discord: DizzyMii" />
+<img src="https://komarev.com/ghpvc/?username=DizzyMii&color=ac3232&style=for-the-badge&label=views" alt="profile views" />
 
 </div>
 
@@ -17,16 +17,17 @@ I build tooling for AI agents and Minecraft mods, mostly in Python, TypeScript a
 ## Agents
 
 <div align="center">
-<a href="https://github.com/DizzyMii/fable-skills"><img src="https://github-readme-stats.vercel.app/api/pin/?username=DizzyMii&repo=fable-skills&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=a371f7&text_color=8b949e" alt="fable-skills" /></a>
-<a href="https://github.com/DizzyMii/landlord"><img src="https://github-readme-stats.vercel.app/api/pin/?username=DizzyMii&repo=landlord&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=a371f7&text_color=8b949e" alt="landlord" /></a>
-<a href="https://github.com/DizzyMii/Flint"><img src="https://github-readme-stats.vercel.app/api/pin/?username=DizzyMii&repo=Flint&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=a371f7&text_color=8b949e" alt="Flint" /></a>
-<a href="https://github.com/DizzyMii/ai-engineering-brain"><img src="https://github-readme-stats.vercel.app/api/pin/?username=DizzyMii&repo=ai-engineering-brain&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=a371f7&text_color=8b949e" alt="ai-engineering-brain" /></a>
+<a href="https://github.com/DizzyMii/fable-skills"><img src="assets/card-fable-skills.svg" width="49%" alt="fable-skills: six Claude Code skills that push Opus 4.8 toward Fable 5 behavior" /></a>
+<a href="https://github.com/DizzyMii/landlord"><img src="assets/card-landlord.svg" width="49%" alt="landlord: parallel Claude Agent SDK sessions bound by contracts" /></a>
+<a href="https://github.com/DizzyMii/Flint"><img src="assets/card-flint.svg" width="49%" alt="Flint: TypeScript agent runtime" /></a>
+<a href="https://github.com/DizzyMii/ai-engineering-brain"><img src="assets/card-ai-engineering-brain.svg" width="49%" alt="ai-engineering-brain: 660 linked Obsidian notes on AI engineering" /></a>
 </div>
 
-- **fable-skills**: six Claude Code skills that push Opus 4.8 toward Fable 5 behavior (what it claims, when it stops, what it touches). Every one was pressure-tested on real Opus subagents until the failure flipped, and the transcripts are in the repo
-- **landlord**: MCP server that splits one task into parallel Claude Agent SDK sessions, each bound to a contract with JSON Schema checkpoints. Tenants that break contract get evicted and retried. Runs on a Pro/Max sub, ~1,200 lines, 52 tests
-- **Flint**: TypeScript agent runtime, six primitives and one runtime dependency, errors come back as values ([docs](https://dizzymii.github.io/Flint/))
-- **ai-engineering-brain**: ~660 linked Obsidian notes from floating point up to inference economics, every applied claim tagged with an evidence tier, a source and a date
+<div align="center">
+
+[![fable-skills stars](https://img.shields.io/github/stars/DizzyMii/fable-skills?style=flat-square&label=fable-skills&color=ac3232&labelColor=0d1117)](https://github.com/DizzyMii/fable-skills) [![Flint docs](https://img.shields.io/badge/flint-docs-ac3232?style=flat-square&labelColor=0d1117)](https://dizzymii.github.io/Flint/)
+
+</div>
 
 ## Smaller stuff
 
@@ -37,20 +38,27 @@ I build tooling for AI agents and Minecraft mods, mostly in Python, TypeScript a
 ## Stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=py,ts,java,kotlin,js,react,svelte,nodejs,git,docker,linux,bash&theme=dark&perline=12" alt="Python, TypeScript, Java, Kotlin, JavaScript, React, Svelte, Node, Git, Docker, Linux, Bash" />
-<br /><br />
-<sub>NeoForge 1.21.1 · MCP · Claude Agent SDK · Aseprite · Blockbench</sub>
+<img src="https://img.shields.io/badge/python-0d1117?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/typescript-0d1117?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/java-0d1117?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+<img src="https://img.shields.io/badge/kotlin-0d1117?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
+<img src="https://img.shields.io/badge/react-0d1117?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+<img src="https://img.shields.io/badge/svelte-0d1117?style=for-the-badge&logo=svelte&logoColor=white" alt="Svelte" />
+<img src="https://img.shields.io/badge/node-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node" />
+<img src="https://img.shields.io/badge/docker-0d1117?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+<br />
+<img src="https://img.shields.io/badge/neoforge_1.21.1-ac3232?style=for-the-badge" alt="NeoForge 1.21.1" />
+<img src="https://img.shields.io/badge/mcp-ac3232?style=for-the-badge&logo=anthropic&logoColor=white" alt="MCP" />
+<img src="https://img.shields.io/badge/claude_agent_sdk-ac3232?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Agent SDK" />
+<img src="https://img.shields.io/badge/aseprite-ac3232?style=for-the-badge&logo=aseprite&logoColor=white" alt="Aseprite" />
+<img src="https://img.shields.io/badge/blockbench-ac3232?style=for-the-badge" alt="Blockbench" />
 </div>
 
 ## Stats
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&count_private=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a371f7&icon_color=a371f7&text_color=8b949e" height="165" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DizzyMii&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=a371f7&text_color=8b949e" height="165" alt="Top languages" />
-<br /><br />
-<img src="https://github-trophies.vercel.app/?username=DizzyMii&title=Stars,Commits,PullRequest,MultiLanguage,LongTimeUser,Repositories&theme=onedark&no-frame=true&no-bg=true&column=6&margin-w=8" width="100%" alt="trophies" />
-<br /><br />
-<img src="https://streak-stats.demolab.com/?user=DizzyMii&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=21262d&ring=a371f7&fire=a371f7&currStreakLabel=e6edf3&sideLabels=8b949e&currStreakNum=e6edf3&sideNums=8b949e&dates=8b949e" alt="GitHub streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=DizzyMii&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ac3232&icon_color=ac3232&ring_color=ac3232&text_color=e6edf3" height="165" alt="GitHub stats" />
+<img src="https://streak-stats.demolab.com/?user=DizzyMii&hide_border=true&background=0d1117&stroke=30363d&ring=ac3232&fire=ac3232&currStreakNum=e6edf3&currStreakLabel=ac3232&sideNums=e6edf3&sideLabels=8b949e&dates=8b949e" height="165" alt="GitHub streak" />
 <br /><br />
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DizzyMii/DizzyMii/output/github-contribution-grid-snake-dark.svg" />
@@ -59,4 +67,4 @@ I build tooling for AI agents and Minecraft mods, mostly in Python, TypeScript a
 </picture>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8957e5,50:1f2a48,100:0d1117&height=110&section=footer" width="100%" alt="" />
+<img src="assets/footer.svg" width="100%" alt="" />
