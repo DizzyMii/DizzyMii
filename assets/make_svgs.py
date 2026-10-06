@@ -177,6 +177,9 @@ def banner(name, tag, sub, big, small, w=1200, h=300):
     cy = h / 2
     size = min(84, 1150 / max(len(name), 8))
     split = w * 0.64
+    big_size = min(h * 0.36, (w - split - 150) / (len(big) * 0.62))
+    mark = min(3.2 * h / 300, (w - split - 80) / DM_W)
+    tw, ty = len(tag) * 11 + 34, cy - 92
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}">
 <style>
   .wipe {{ animation: wipe .9s cubic-bezier(.7,0,.2,1) .2s both; }}
@@ -186,11 +189,11 @@ def banner(name, tag, sub, big, small, w=1200, h=300):
 </style>
 <rect width="{w}" height="{h}" fill="{WHITE}"/>
 <polygon points="{split + 90},0 {w},0 {w},{h} {split},{h}" fill="{RED}"/>
-{dm(split + 120, cy - DM_H * 1.6, 3.2 * h / 300, "#9b2d2d")}
+{dm(split + 110, cy - DM_H * mark / 2, mark, "#9b2d2d")}
 <line x1="{split + 40}" y1="{h}" x2="{split + 130}" y2="0" stroke="{WHITE}" stroke-width="5"/>
-<text x="{w - 50}" y="{cy + 30}" text-anchor="end" font-family="{SANS}" font-size="{h * 0.36:.0f}" font-weight="900" font-style="italic" fill="{WHITE}">{big}</text>
+<text x="{w - 50}" y="{cy + 30}" text-anchor="end" font-family="{SANS}" font-size="{big_size:.0f}" font-weight="900" font-style="italic" fill="{WHITE}">{big}</text>
 <text x="{w - 54}" y="{cy + 62}" text-anchor="end" font-family="{MONO}" font-size="16" font-weight="700" fill="{WHITE}" letter-spacing="3">{small}</text>
-<rect x="64" y="{cy - 92}" width="{len(tag) * 11 + 34}" height="26" fill="{RED}" transform="skewX(-14)"/>
+<polygon points="{70},{ty} {70 + tw},{ty} {64 + tw},{ty + 26} {64},{ty + 26}" fill="{RED}"/>
 <text x="80" y="{cy - 73}" font-family="{MONO}" font-size="15" font-weight="700" fill="{WHITE}" letter-spacing="2">{escape(tag)}</text>
 <g class="reveal"><text x="60" y="{cy + 18}" font-family="{SANS}" font-size="{size:.0f}" font-weight="900" font-style="italic" fill="{INK}" letter-spacing="-1">{escape(name.upper())}</text></g>
 <polygon class="wipe" points="40,{cy - 60} 110,{cy - 60} 90,{cy + 30} 20,{cy + 30}" fill="{RED}"/>
