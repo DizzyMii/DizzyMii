@@ -11,6 +11,16 @@ MONO = "ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monosp
 SANS = "'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
 
 
+# the DM logo, traced from the avatar: first line is "w h", second is the path
+_size, DM_PATH = (OUT / "dm_logo.path").read_text().splitlines()
+DM_W, DM_H = map(int, _size.split())
+TICKER = "FABLE-SKILLS  ///  LANDLORD  ///  FLINT  ///  AI-ENGINEERING-BRAIN  ///  660 NOTES  ///  NEOFORGE 1.21.1  ///  MCP  ///  "
+
+
+def dm(x, y, scale, fill):
+    return f'<g transform="translate({x} {y}) scale({scale})" fill="{fill}" shape-rendering="crispEdges"><path d="{DM_PATH}"/></g>'
+
+
 def hero():
     hub = (960, 150)
     tenants = [(1100, 60), (1140, 180), (1050, 255), (850, 250), (870, 62)]
@@ -24,16 +34,32 @@ def hero():
         evict = (f'<animate attributeName="fill" dur="7s" repeatCount="indefinite" calcMode="discrete" '
                  f'values="{WHITE};{INK};{WHITE};{INK};{WHITE}" keyTimes="0;.5;.56;.62;.7"/>') if i == 2 else ""
         nodes.append(f'<rect x="{x - 7}" y="{y - 7}" width="14" height="14" fill="{WHITE}" transform="rotate(45 {x} {y})">{evict}</rect>')
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
+    tick_w = len(TICKER) * 8.8  # textLength pins it, so any mono font loops cleanly
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330">
 <style>
   .wire {{ stroke: {WHITE}; stroke-opacity: .55; stroke-width: 2; stroke-dasharray: 6 8; animation: flow 1s linear infinite; }}
   .run {{ stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: run 4s cubic-bezier(.6,0,.2,1) infinite; }}
+  .speed {{ animation: speed linear infinite; }}
+  .wipe {{ animation: wipe .9s cubic-bezier(.7,0,.2,1) .2s both; }}
+  .reveal {{ animation: reveal .9s cubic-bezier(.7,0,.2,1) .2s both; }}
+  .glitch {{ opacity: 0; animation: glitch 5s steps(1) 1.4s infinite; }}
+  .ticker {{ animation: tick 22s linear infinite; }}
+  @keyframes speed {{ from {{ transform: translateX(760px); }} to {{ transform: translateX(-260px); }} }}
+  @keyframes wipe {{ from {{ transform: translateX(0); }} to {{ transform: translateX(1400px); }} }}
+  @keyframes reveal {{ from {{ clip-path: inset(0 100% 0 0); }} to {{ clip-path: inset(0 0 0 0); }} }}
+  @keyframes glitch {{ 0% {{ opacity: 1; transform: translateX(12px); }} 2% {{ opacity: 1; transform: translateX(-8px); }} 4%, 100% {{ opacity: 0; }} }}
+  @keyframes tick {{ to {{ transform: translateX(-{tick_w:.0f}px); }} }}
   @keyframes flow {{ to {{ stroke-dashoffset: -28; }} }}
   @keyframes run {{ 0% {{ stroke-dashoffset: 1400; }} 45%, 70% {{ stroke-dashoffset: 0; }} 100% {{ stroke-dashoffset: -1400; }} }}
 </style>
-<rect width="1200" height="300" fill="{WHITE}"/>
+<rect width="1200" height="330" fill="{WHITE}"/>
+<rect class="speed" style="animation-duration:1.9s" x="0" y="34" width="140" height="3" fill="{INK}"/>
+<rect class="speed" style="animation-duration:2.7s;animation-delay:.6s" x="0" y="232" width="220" height="2" fill="{RED}"/>
+<rect class="speed" style="animation-duration:3.4s;animation-delay:1.3s" x="0" y="270" width="90" height="4" fill="{INK}"/>
 <polygon points="780,0 1200,0 1200,300 690,300" fill="{RED}"/>
+{dm(842, 48, 3.1, "#9b2d2d")}
 <line x1="742" y1="300" x2="830" y2="0" stroke="{WHITE}" stroke-width="5"/>
+<line x1="1150" y1="300" x2="1200" y2="140" stroke="{WHITE}" stroke-width="3"/><line x1="1172" y1="300" x2="1200" y2="210" stroke="{WHITE}" stroke-width="3"/>
 <line x1="700" y1="318" x2="790" y2="-10" stroke="{RED}" stroke-width="3"/>
 {"".join(wires)}
 {"".join(packets)}
@@ -44,10 +70,17 @@ def hero():
 <rect x="{hub[0] - 16}" y="{hub[1] - 16}" width="32" height="32" fill="{INK}" stroke="{WHITE}" stroke-width="4" transform="rotate(45 {hub[0]} {hub[1]})"/>
 <rect x="64" y="70" width="138" height="26" fill="{RED}" transform="skewX(-14)"/>
 <text x="80" y="89" font-family="{MONO}" font-size="15" font-weight="700" fill="{WHITE}" letter-spacing="2">DIZZYMII</text>
-<text x="60" y="172" font-family="{SANS}" font-size="80" font-weight="900" font-style="italic" fill="{INK}" letter-spacing="-1">KADE HEGLIN</text>
+<g class="reveal"><text x="60" y="172" font-family="{SANS}" font-size="80" font-weight="900" font-style="italic" fill="{INK}" letter-spacing="-1">KADE HEGLIN</text></g>
+<g class="glitch"><clipPath id="slice"><rect x="0" y="118" width="700" height="14"/><rect x="0" y="146" width="700" height="8"/></clipPath>
+<text x="60" y="172" clip-path="url(#slice)" font-family="{SANS}" font-size="80" font-weight="900" font-style="italic" fill="{RED}" letter-spacing="-1">KADE HEGLIN</text></g>
+<polygon class="wipe" points="40,100 110,100 90,186 20,186" fill="{RED}"/>
 <path d="M64 196 H560 L590 220 H640" fill="none" stroke="{RED}" stroke-width="5" class="run"/>
 <text x="64" y="252" font-family="{MONO}" font-size="16" font-weight="700" fill="{GREY}" letter-spacing="3">AGENT TOOLING / CLAUDE SKILLS / MINECRAFT MODS</text>
 <rect width="1200" height="6" fill="{INK}"/>
+<rect y="300" width="1200" height="30" fill="{INK}"/>
+<g class="ticker" xml:space="preserve" font-family="{MONO}" font-size="13" font-weight="700" letter-spacing="2" fill="{WHITE}">{"".join(f'<text x="{24 + i * tick_w:.0f}" y="320" textLength="{tick_w - 22:.0f}" lengthAdjust="spacing">{escape(TICKER)}</text>' for i in range(3))}</g>
+<polygon points="0,300 150,300 136,330 0,330" fill="{RED}"/>
+<text x="20" y="320" font-family="{MONO}" font-size="13" font-weight="700" letter-spacing="2" fill="{WHITE}">NOW SHIPPING</text>
 </svg>
 '''
 
