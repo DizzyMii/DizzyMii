@@ -255,7 +255,7 @@ def fetch_stats(login="DizzyMii"):
         streak += 1
     return {
         "numbers": [("CONTRIBUTIONS", c["contributionCalendar"]["totalContributions"]),
-                    ("STARS EARNED", sum(r["stargazerCount"] for r in repos)),
+                    ("STARS ALL TIME", sum(r["stargazerCount"] for r in repos)),
                     ("PULL REQUESTS", c["totalPullRequestContributions"]),
                     ("DAY STREAK", streak)],
         "langs": sorted(langs.items(), key=lambda kv: -kv[1])[:5],
