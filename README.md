@@ -13,6 +13,7 @@
 I build tooling for AI agents and Minecraft mods, mostly in Python, TypeScript and Java. Self-taught. Most of what's here started as something I wanted for myself and got out of hand (the AI engineering vault was supposed to be a few notes, it's 660 now).
 
 <div align="center"><img src="assets/terminal.svg" width="760" alt="terminal: whoami, ls ~/projects, landlord tagline, 660 notes" /></div>
+<div align="center"><img src="assets/latest.svg" width="760" alt="last public push" /></div>
 
 <img src="assets/h-agents.svg" width="100%" alt="Agents" />
 

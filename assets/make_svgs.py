@@ -146,9 +146,13 @@ CARDS = [
 ]
 
 
-def card(name, tag, desc):
+def card(name, tag, desc, delay=0.0):
     body = "".join(f'<text x="34" y="{92 + i * 20}">{escape(l)}</text>' for i, l in enumerate(wrap(desc, 54)))
     return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 180" width="440" height="180">
+<style>
+  .sweep {{ transform: translateX(-120px); animation: sweep .8s cubic-bezier(.7,0,.2,1) {delay:.2f}s forwards; }}
+  @keyframes sweep {{ to {{ transform: translateX(600px); }} }}
+</style>
 <rect x=".5" y=".5" width="439" height="179" fill="{WHITE}" stroke="{RULE}"/>
 <rect width="10" height="180" fill="{RED}"/>
 <polygon points="360,0 440,0 440,56" fill="{RED}"/>
@@ -156,6 +160,44 @@ def card(name, tag, desc):
 <text x="34" y="34" font-family="{MONO}" font-size="12" font-weight="700" fill="{RED}" letter-spacing="2">{escape(tag)}</text>
 <text x="32" y="64" font-family="{SANS}" font-size="26" font-weight="900" font-style="italic" fill="{INK}">{escape(name.upper())}</text>
 <g font-family="{SANS}" font-size="14" fill="{GREY}">{body}</g>
+<polygon class="sweep" points="40,0 110,0 70,180 0,180" fill="{RED}"/>
+</svg>
+'''
+
+
+BANNERS = [
+    ("fable-skills", "CLAUDE CODE SKILLS", "Opus 4.8, closer to Fable 5. Pressure-tested.", "6", "SKILLS"),
+    ("landlord", "PYTHON / MCP SERVER", "Parallel Claude agents bound by contracts.", "5", "MCP TOOLS"),
+    ("Flint", "TYPESCRIPT AGENT RUNTIME", "One agent loop, one runtime dependency.", "6", "PRIMITIVES"),
+    ("ai-engineering-brain", "OBSIDIAN VAULT", "AI engineering from floating point up.", "660", "NOTES"),
+]
+
+
+def banner(name, tag, sub, big, small, w=1200, h=300):
+    cy = h / 2
+    size = min(84, 1150 / max(len(name), 8))
+    split = w * 0.64
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}">
+<style>
+  .wipe {{ animation: wipe .9s cubic-bezier(.7,0,.2,1) .2s both; }}
+  .reveal {{ animation: reveal .9s cubic-bezier(.7,0,.2,1) .2s both; }}
+  @keyframes wipe {{ from {{ transform: translateX(0); }} to {{ transform: translateX({w + 200}px); }} }}
+  @keyframes reveal {{ from {{ clip-path: inset(0 100% 0 0); }} to {{ clip-path: inset(0 0 0 0); }} }}
+</style>
+<rect width="{w}" height="{h}" fill="{WHITE}"/>
+<polygon points="{split + 90},0 {w},0 {w},{h} {split},{h}" fill="{RED}"/>
+{dm(split + 120, cy - DM_H * 1.6, 3.2 * h / 300, "#9b2d2d")}
+<line x1="{split + 40}" y1="{h}" x2="{split + 130}" y2="0" stroke="{WHITE}" stroke-width="5"/>
+<text x="{w - 50}" y="{cy + 30}" text-anchor="end" font-family="{SANS}" font-size="{h * 0.36:.0f}" font-weight="900" font-style="italic" fill="{WHITE}">{big}</text>
+<text x="{w - 54}" y="{cy + 62}" text-anchor="end" font-family="{MONO}" font-size="16" font-weight="700" fill="{WHITE}" letter-spacing="3">{small}</text>
+<rect x="64" y="{cy - 92}" width="{len(tag) * 11 + 34}" height="26" fill="{RED}" transform="skewX(-14)"/>
+<text x="80" y="{cy - 73}" font-family="{MONO}" font-size="15" font-weight="700" fill="{WHITE}" letter-spacing="2">{escape(tag)}</text>
+<g class="reveal"><text x="60" y="{cy + 18}" font-family="{SANS}" font-size="{size:.0f}" font-weight="900" font-style="italic" fill="{INK}" letter-spacing="-1">{escape(name.upper())}</text></g>
+<polygon class="wipe" points="40,{cy - 60} 110,{cy - 60} 90,{cy + 30} 20,{cy + 30}" fill="{RED}"/>
+<rect x="64" y="{cy + 40}" width="{split - 160}" height="5" fill="{RED}"/>
+<text x="64" y="{cy + 82}" font-family="{SANS}" font-size="20" fill="{GREY}">{escape(sub)}</text>
+<text x="64" y="{h - 24}" font-family="{MONO}" font-size="12" font-weight="700" fill="{GREY}" letter-spacing="3">GITHUB.COM/DIZZYMII</text>
+<rect width="{w}" height="6" fill="{INK}"/>
 </svg>
 '''
 
@@ -217,6 +259,35 @@ def fetch_stats(login="DizzyMii"):
     }
 
 
+LATEST_Q = """query($login: String!) { user(login: $login) {
+  repositories(first: 3, privacy: PUBLIC, isFork: false, ownerAffiliations: OWNER, orderBy: {field: PUSHED_AT, direction: DESC}) {
+    nodes { name defaultBranchRef { target { ... on Commit { messageHeadline committedDate } } } } } } }"""
+
+
+def fetch_latest(login="DizzyMii"):
+    import json, subprocess
+    out = subprocess.run(["gh", "api", "graphql", "-f", f"query={LATEST_Q}", "-f", f"login={login}"],
+                         capture_output=True, text=True, check=True).stdout
+    for r in json.loads(out)["data"]["user"]["repositories"]["nodes"]:
+        if r["name"].lower() != login.lower() and r["defaultBranchRef"]:
+            c = r["defaultBranchRef"]["target"]
+            return r["name"], c["messageHeadline"], c["committedDate"][:10]
+
+
+def latest(repo, msg, date):
+    msg = msg if len(msg) <= 64 else msg[:61] + "..."
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 64" width="860" height="64">
+<style>.blink {{ animation: b 1s steps(1) infinite; }} @keyframes b {{ 50% {{ opacity: 0; }} }}</style>
+<rect width="860" height="64" fill="{INK}"/>
+<polygon points="0,0 196,0 176,64 0,64" fill="{RED}"/>
+<rect class="blink" x="20" y="27" width="10" height="10" fill="{WHITE}"/>
+<text x="40" y="37" font-family="{MONO}" font-size="13" font-weight="700" fill="{WHITE}" letter-spacing="2">LAST PUSH</text>
+<text x="200" y="28" font-family="{MONO}" font-size="13" font-weight="700" fill="{RED}" letter-spacing="2">{escape(repo.upper())}  <tspan fill="#8b949e">{date}</tspan></text>
+<text x="200" y="48" font-family="{MONO}" font-size="14" fill="{WHITE}">{escape(msg)}</text>
+</svg>
+'''
+
+
 def stats(s):
     cells = "".join(
         f'<text x="{40 + i * 205}" y="112" font-family="{SANS}" font-size="52" font-weight="900" font-style="italic" fill="{INK}">{n:,}</text>'
@@ -247,10 +318,17 @@ def stats(s):
 (OUT / "hero.svg").write_text(hero(), encoding="utf-8")
 (OUT / "terminal.svg").write_text(terminal(), encoding="utf-8")
 (OUT / "footer.svg").write_text(footer(), encoding="utf-8")
-for c in CARDS:
-    (OUT / f"card-{c[0].lower()}.svg").write_text(card(*c), encoding="utf-8")
+for i, c in enumerate(CARDS):
+    (OUT / f"card-{c[0].lower()}.svg").write_text(card(*c, delay=0.3 + i * 0.18), encoding="utf-8")
 for h in ["AGENTS", "SMALLER STUFF", "STACK", "STATS"]:
     (OUT / f"h-{h.lower().replace(' ', '-')}.svg").write_text(heading(h), encoding="utf-8")
+for b in BANNERS:
+    (OUT / "banners" / f"{b[0].lower()}.svg").write_text(banner(*b), encoding="utf-8")
+    (OUT / "banners" / f"{b[0].lower()}-social.svg").write_text(banner(*b, w=1280, h=640), encoding="utf-8")
+try:
+    (OUT / "latest.svg").write_text(latest(*fetch_latest()), encoding="utf-8")
+except Exception as e:
+    print("latest skipped:", e)
 try:
     (OUT / "stats.svg").write_text(stats(fetch_stats()), encoding="utf-8")
 except Exception as e:  # no gh / no network: keep the last stats.svg
