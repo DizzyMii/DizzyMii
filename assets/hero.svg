@@ -11,7 +11,7 @@
   @keyframes wipe { from { transform: translateX(0); } to { transform: translateX(1400px); } }
   @keyframes reveal { from { clip-path: inset(0 100% 0 0); } to { clip-path: inset(0 0 0 0); } }
   @keyframes glitch { 0% { opacity: 1; transform: translateX(12px); } 2% { opacity: 1; transform: translateX(-8px); } 4%, 100% { opacity: 0; } }
-  @keyframes tick { to { transform: translateX(-1065px); } }
+  @keyframes tick { to { transform: translateX(-1188px); } }
   @keyframes flow { to { stroke-dashoffset: -28; } }
   @keyframes run { 0% { stroke-dashoffset: 1400; } 45%, 70% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -1400; } }
 </style>
@@ -41,7 +41,7 @@
 <text x="64" y="252" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="16" font-weight="700" fill="#57606a" letter-spacing="3">AGENT TOOLING / CLAUDE SKILLS / MINECRAFT MODS</text>
 <rect width="1200" height="6" fill="#0d1117"/>
 <rect y="300" width="1200" height="30" fill="#0d1117"/>
-<g class="ticker" xml:space="preserve" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#f2f2f2"><text x="24" y="320" textLength="1043" lengthAdjust="spacing">FABLE-SKILLS  ///  LANDLORD  ///  FLINT  ///  AI-ENGINEERING-BRAIN  ///  660 NOTES  ///  NEOFORGE 1.21.1  ///  MCP  ///  </text><text x="1089" y="320" textLength="1043" lengthAdjust="spacing">FABLE-SKILLS  ///  LANDLORD  ///  FLINT  ///  AI-ENGINEERING-BRAIN  ///  660 NOTES  ///  NEOFORGE 1.21.1  ///  MCP  ///  </text><text x="2154" y="320" textLength="1043" lengthAdjust="spacing">FABLE-SKILLS  ///  LANDLORD  ///  FLINT  ///  AI-ENGINEERING-BRAIN  ///  660 NOTES  ///  NEOFORGE 1.21.1  ///  MCP  ///  </text></g>
+<g class="ticker" xml:space="preserve" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#f2f2f2"><text x="24" y="320" textLength="1166" lengthAdjust="spacing">LECTERN  ///  FABLE-SKILLS  ///  LANDLORD  ///  FLINT  ///  AI-ENGINEERING-BRAIN  ///  660 NOTES  ///  NEOFORGE 1.21.1  ///  MCP  ///  </text><text x="1212" y="320" textLength="1166" lengthAdjust="spacing">LECTERN  ///  FABLE-SKILLS  ///  LANDLORD  ///  FLINT  ///  AI-ENGINEERING-BRAIN  ///  660 NOTES  ///  NEOFORGE 1.21.1  ///  MCP  ///  </text><text x="2400" y="320" textLength="1166" lengthAdjust="spacing">LECTERN  ///  FABLE-SKILLS  ///  LANDLORD  ///  FLINT  ///  AI-ENGINEERING-BRAIN  ///  660 NOTES  ///  NEOFORGE 1.21.1  ///  MCP  ///  </text></g>
 <polygon points="0,300 150,300 136,330 0,330" fill="#ac3232"/>
 <text x="20" y="320" font-family="ui-monospace, 'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="13" font-weight="700" letter-spacing="2" fill="#f2f2f2">NOW SHIPPING</text>
 </svg>

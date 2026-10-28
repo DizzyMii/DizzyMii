@@ -15,6 +15,16 @@ I build tooling for AI agents and Minecraft mods, mostly in Python, TypeScript a
 <div align="center"><img src="assets/terminal.svg" width="760" alt="terminal: whoami, ls ~/projects, landlord tagline, 660 notes" /></div>
 <div align="center"><img src="assets/latest.svg" width="760" alt="last public push" /></div>
 
+<img src="assets/h-the-big-one.svg" width="100%" alt="The big one" />
+
+<a href="https://github.com/DizzyMii/lectern"><img src="assets/banners/lectern.svg" width="100%" alt="Lectern: ask your docs and your code, every citation checked against the file. 53 of 53 citations verified" /></a>
+
+A local notebook for developers. Pin the docs you trust, point it at the source folders and repos you work in, ask, and every citation in the answer gets checked against the actual file and line. It checks again every time you reopen an answer, so when the code moves under an old one you see it (moved, or red if the lines got rewritten).
+
+Runs as a Windows app or from npm, and as an MCP server so Claude Code and Cursor can search your notebooks for free, plus a hook that won't let Claude Code finish a turn while one of its citations is broken. Built it for NeoForge modding (53 of 53 citations verified on my test set there), the clip below is Fastify.
+
+<div align="center"><img src="assets/lectern-ask.gif" width="760" alt="Lectern answering a question about a Fastify app: the trail of files it read, the answer streaming in, then every citation stamping in as verified" /></div>
+
 <img src="assets/h-agents.svg" width="100%" alt="Agents" />
 
 <div align="center">

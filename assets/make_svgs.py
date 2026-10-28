@@ -14,7 +14,7 @@ SANS = "'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"
 # the DM logo, traced from the avatar: first line is "w h", second is the path
 _size, DM_PATH = (OUT / "dm_logo.path").read_text().splitlines()
 DM_W, DM_H = map(int, _size.split())
-TICKER = "FABLE-SKILLS  ///  LANDLORD  ///  FLINT  ///  AI-ENGINEERING-BRAIN  ///  660 NOTES  ///  NEOFORGE 1.21.1  ///  MCP  ///  "
+TICKER = "LECTERN  ///  FABLE-SKILLS  ///  LANDLORD  ///  FLINT  ///  AI-ENGINEERING-BRAIN  ///  660 NOTES  ///  NEOFORGE 1.21.1  ///  MCP  ///  "
 
 
 def dm(x, y, scale, fill):
@@ -88,7 +88,7 @@ def hero():
 # (prompt typed char by char, output lines shown all at once)
 LINES = [
     ("whoami", ["kade heglin, self-taught, builds agent tooling and minecraft mods"]),
-    ("ls ~/projects", ["fable-skills/  landlord/  Flint/  ai-engineering-brain/  Git-Kitchen/"]),
+    ("ls ~/projects", ["lectern/  fable-skills/  landlord/  Flint/  ai-engineering-brain/  Git-Kitchen/"]),
     ("cat landlord/README.md | head -1", ["parallel claude agents with contracts. break one and you get evicted"]),
     ("find ai-engineering-brain -name '*.md' | wc -l", ["660"]),
 ]
@@ -166,6 +166,7 @@ def card(name, tag, desc, delay=0.0):
 
 
 BANNERS = [
+    ("lectern", "NODE / ELECTRON / MCP", "Ask your docs and your code. Every citation checked against the file.", "53/53", "CITATIONS VERIFIED"),
     ("fable-skills", "CLAUDE CODE SKILLS", "Opus 4.8, closer to Fable 5. Pressure-tested.", "6", "SKILLS"),
     ("landlord", "PYTHON / MCP SERVER", "Parallel Claude agents bound by contracts.", "5", "MCP TOOLS"),
     ("Flint", "TYPESCRIPT AGENT RUNTIME", "One agent loop, one runtime dependency.", "6", "PRIMITIVES"),
@@ -323,7 +324,7 @@ def stats(s):
 (OUT / "footer.svg").write_text(footer(), encoding="utf-8")
 for i, c in enumerate(CARDS):
     (OUT / f"card-{c[0].lower()}.svg").write_text(card(*c, delay=0.3 + i * 0.18), encoding="utf-8")
-for h in ["AGENTS", "SMALLER STUFF", "STACK", "STATS"]:
+for h in ["THE BIG ONE", "AGENTS", "SMALLER STUFF", "STACK", "STATS"]:
     (OUT / f"h-{h.lower().replace(' ', '-')}.svg").write_text(heading(h), encoding="utf-8")
 for b in BANNERS:
     (OUT / "banners" / f"{b[0].lower()}.svg").write_text(banner(*b), encoding="utf-8")
